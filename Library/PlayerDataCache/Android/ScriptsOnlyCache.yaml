@@ -175,6 +175,12 @@ ScriptsOnlyBuild:
     - UnityEditor.Tilemaps.TileDragAndDropManager
     Unity.Rider.Editor.dll:
     - Packages.Rider.Editor.UnitTesting.CallbackData
+    UnityEditor.Graphs.dll:
+    - UnityEditor.Graphs.AnimationBlendTree.Graph
+    - UnityEditor.Graphs.AnimationBlendTree.GraphGUI
+    - UnityEditor.Graphs.AnimationStateMachine.Graph
+    - UnityEditor.Graphs.AnimationStateMachine.GraphGUI
+    - UnityEditor.Graphs.AnimatorControllerTool
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
     - UnityEditor.TestTools.TestRunner.TestListCacheData
@@ -216,15 +222,11 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 28
       Script: {instanceID: 0}
-    - Class: 43
-      Script: {instanceID: 0}
     - Class: 48
       Script: {instanceID: 0}
     - Class: 74
       Script: {instanceID: 0}
     - Class: 81
-      Script: {instanceID: 0}
-    - Class: 82
       Script: {instanceID: 0}
     - Class: 83
       Script: {instanceID: 0}
@@ -355,12 +357,6 @@ ScriptsOnlyBuild:
     - Class: 224
       Script: {instanceID: 0}
     - Class: 225
-      Script: {instanceID: 0}
-    - Class: 241
-      Script: {instanceID: 0}
-    - Class: 243
-      Script: {instanceID: 0}
-    - Class: 245
       Script: {instanceID: 0}
     - Class: 258
       Script: {instanceID: 0}
@@ -739,7 +735,7 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 18702}
     - Class: 114
-      Script: {instanceID: 81338}
+      Script: {instanceID: 256246}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 124
@@ -4138,4 +4134,4 @@ ScriptsOnlyBuild:
   - Assets/BombOffline/Scenes/OfflineMainScene.unity
   - Assets/BombOffline/Scenes/LoadingScene.unity
   - Assets/BombOffline/Scenes/BomberMap.unity
-  playerPath: E:/PrairieCorn/Games/bomber_online.apk
+  playerPath: C:/Users/nguyen/Downloads/Telegram Desktop/PhaTich.apk
