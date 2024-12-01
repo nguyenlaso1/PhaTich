@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: 7c52840470024796a51ae53214f41b43
+timeCreated: 1680562304
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 1
+  characterPadding: 0
+  includeFontData: 1
+  fontName: "Comic Book Bold"
+  fontNames:
+  - Comic Book
+  fallbackFontReferences: []
+  customCharacters:
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData:
+  assetBundleName: 
+  assetBundleVariant: 

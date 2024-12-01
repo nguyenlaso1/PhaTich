@@ -1,0 +1,73 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Bomb
+  - MissingTexture
+  - Item
+  - FxTemporaire
+  - BorderWall
+  - Death
+  - Destroyable
+  - Monster
+  - Door
+  - Pit
+  - NonDestroyable
+  - Bullet
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - Character
+  - Wall
+  - Bomb
+  - Item
+  - BorderWall
+  - Monster
+  - Bullet
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: "Default"
+    uniqueID: 0
+    locked: 0
+  - name: "Background"
+    uniqueID: 2295162621
+    locked: 0
+  - name: "Item"
+    uniqueID: 955328083
+    locked: 0
+  - name: "Character"
+    uniqueID: 1272073137
+    locked: 0
+  - name: "Particle"
+    uniqueID: 522482405
+    locked: 0
+  - name: "GUI"
+    uniqueID: 3584812447
+    locked: 0
+  - name: "GUIParticle"
+    uniqueID: 3162419185
+    locked: 0

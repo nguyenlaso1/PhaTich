@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b5dc5d9da751abe8e078406ebee87b5a, type: 3}
+  m_Name: "desert"
+  m_EditorClassIdentifier: 
+  spriteList:
+  - {fileID: 21300008, guid: ff7ae5926e554d6ebf49372d5fdb6458, type: 3}
+  - {fileID: 21300002, guid: ff7ae5926e554d6ebf49372d5fdb6458, type: 3}
+  - {fileID: 21300006, guid: ff7ae5926e554d6ebf49372d5fdb6458, type: 3}
+  - {fileID: 21300000, guid: ff7ae5926e554d6ebf49372d5fdb6458, type: 3}
+  - {fileID: 21300004, guid: ff7ae5926e554d6ebf49372d5fdb6458, type: 3}
+  - {fileID: 21300002, guid: aee2b49d29ee4b76ab90ac46ec41cd27, type: 3}
+  - {fileID: 21300008, guid: aee2b49d29ee4b76ab90ac46ec41cd27, type: 3}
+  - {fileID: 21300004, guid: aee2b49d29ee4b76ab90ac46ec41cd27, type: 3}
+  - {fileID: 21300000, guid: aee2b49d29ee4b76ab90ac46ec41cd27, type: 3}
+  - {fileID: 21300006, guid: aee2b49d29ee4b76ab90ac46ec41cd27, type: 3}
+  - {fileID: 21300000, guid: e5bed8c1e5464303a07d19904fec1d67, type: 3}

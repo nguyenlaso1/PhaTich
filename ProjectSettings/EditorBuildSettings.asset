@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/BombOffline/Scenes/OfflineMainMenu.unity
+    guid: ff5819a5a9195944abe29be2065d08d6
+  - enabled: 1
+    path: Assets/BombOffline/Scenes/OfflineMainScene.unity
+    guid: 7d3e356eef9e9714ca2930e903fcd29e
+  - enabled: 1
+    path: Assets/BombOffline/Scenes/LoadingScene.unity
+    guid: 92edb0176bf382e48b455ee63ca8880c
+  - enabled: 1
+    path: Assets/BombOffline/Scenes/BomberMap.unity
+    guid: a87ddea2521447b40b7e73415e29c05f
+  m_configObjects: {}

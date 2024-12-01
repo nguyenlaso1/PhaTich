@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b5dc5d9da751abe8e078406ebee87b5a, type: 3}
+  m_Name: "ice"
+  m_EditorClassIdentifier: 
+  spriteList:
+  - {fileID: 21300010, guid: f9672d05ec44418082c8babbb7ed3213, type: 3}
+  - {fileID: 21300008, guid: f9672d05ec44418082c8babbb7ed3213, type: 3}
+  - {fileID: 21300008, guid: 35e10970ffae47368b679af0d1853279, type: 3}
+  - {fileID: 21300006, guid: f9672d05ec44418082c8babbb7ed3213, type: 3}
+  - {fileID: 21300002, guid: f9672d05ec44418082c8babbb7ed3213, type: 3}
+  - {fileID: 21300010, guid: 35e10970ffae47368b679af0d1853279, type: 3}
+  - {fileID: 21300004, guid: f9672d05ec44418082c8babbb7ed3213, type: 3}
+  - {fileID: 21300000, guid: f9672d05ec44418082c8babbb7ed3213, type: 3}
+  - {fileID: 21300000, guid: 35e10970ffae47368b679af0d1853279, type: 3}
+  - {fileID: 21300004, guid: 35e10970ffae47368b679af0d1853279, type: 3}
+  - {fileID: 21300006, guid: 35e10970ffae47368b679af0d1853279, type: 3}
+  - {fileID: 21300002, guid: 35e10970ffae47368b679af0d1853279, type: 3}
+  - {fileID: 21300000, guid: 0788d152e19a43bb8d2e3019eb1c4f09, type: 3}

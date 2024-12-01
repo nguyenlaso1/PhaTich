@@ -1,0 +1,133 @@
+\KEY,EN,VN
+GS_INIT_GAME,Initial Game,Khởi động game
+GS_LOGOUT_NORMAL,Normal Logout, Thoát game
+GS_LOGOUT_MERGE_FB,Logout to merge Facebook, Thoát để đăng nhập Facebook
+GS_LOGIN_NOT_SUCCESS,Login not success,Đăng nhập không thành công
+GS_LOGIN_ERROR,Login error,Đăng nhập bị lỗi
+GS_RECONNECT_TIMEOUT,Reconnect timeout. Please check the internet connection and sign in again,Kết nối không thành công. Vui lòng kiểm tra kết nối mạng và đăng nhập lại
+GS_REQUEST_TIMEOUT,"Network Error",Vui lòng kiểm tra kết nối mạng và đăng nhập lại
+GS_CANCEL_FB, Login Cancel Facebook , Hủy đăng nhập Facebook
+GS_LOGINFB_ERROR,Login Error Facebook ,Đăng nhập Facebook bị lỗi
+GS_GAME_BAN,This account is locked, Tài Khoản của bạn đã bị khóa
+GS_GAME_KICK,Other person is using your account, Người khác đang dùng tài khoản của bạn 
+GS_GAME_IDLE,Connection timeout. Please sign in again,Hết thời gian kết nối. Vui lòng đăng nhập lại
+GS_LOGIN_ERROR_BAN,This account is banned,Tài khoản của bạn đã bị khóa
+GS_GAME_UNKNOWN,Connection lost, Mất kết nối
+JOIN_ROOM_NOT_ENOUGH_CHIP,You don't have enough chips. You need {0} chips to join this room. Do you want to topup more chips?,Bạn không đủ xu. Bạn cần {0} xu để vào phòng này. Bạn có muốn nạp thêm xu?
+
+
+MSG_OK,OK,Đồng ý
+MSG_ACCEPT,Accept,Chấp nhận
+MSG_CANCEL,Cancel,Hủy
+MSG_YES,Yes,Đồng ý
+MSG_NO,No,Không
+SYSTEM_MESSAGE_TITLE,System Message,Thông báo hệ thống
+TOOLTIP_ACCEPT,Accept,Chấp nhận
+TOOLTIP_CANCEL,Cancel,Hủy
+BOX_BACK,BACK,THOÁT
+EXIT_CONFIRM,Do you want to exit?,Bạn có muốn thoát không?
+BACK_MAINMENU_CONFIRM,Do you want to exit?,Bạn có muốn thoát không?
+BACK_MAINMENU_CONFIRM_PLAYING,The game is on playing. If you exit now you may be lost money. You can wait until game ending. ,Ván game đang diễn ra. Nếu thoát bạn có thể mất tiền.
+FEEDBACK_THANKS,Thanks for your feedback,Cám ơn bạn đã góp ý!
+TAP_TO_FEEDBACK,Touch to write feedback,Chạm vào để viết góp ý
+PLAY_NOW_NOT_FOUND,All rooms are busy. Do you want to play other game?,Tất cả các bàn đều bận. Bạn có muốn chơi game khác?
+ALL_ROOM_ARE_BUSY,Sorry all rooms are full . Do you want to continue to find room ?,Tất cả các bàn đã đầy. Bạn có muốn chơi game khác?
+PLAY_OTHER_GAME,Play Other,Game khác
+CREATE_NEW_ROOM,New Room, Tạo phòng
+PLAY_NOW,PLAY NOW,CHƠI NGAY
+MERGE_FB_REQUEST,Please login Facebook to invite friends.Ok?,Bạn cần đăng nhập tài khoản Facebook để mời bạn bè. Đồng ý?
+MERGE_FB,Login FB,Đăng nhập
+PROFILE_SAVE,Save,Lưu
+PROFILE_TYTLE,text_profile1,text_profile2
+PROFILE_FB_LOGOUT,Logout,Đăng xuất
+PROFILE_PROFILE,Profile,Thông tin
+PROFILE_LV,Level: ,Cấp độ: 
+PROFILE_WIN_RATING,Win: ,Tỷ lệ thắng: 
+DECOR_TYTLE,decor1,decor2
+FEED_BACK,Feed Back,Góp ý
+
+MESSAGE_OK,Ok,Chấp nhận
+MESSAGE_CANCEL,Cancel,Hủy bỏ
+
+RANKING_MOST_GOLD,TOP CHIP, Đại Gia
+RANKING_MOST_WIN,TOP LEVEL,Cao Thủ
+RANKING_RANK,RANK,STT
+RANKING_PLAYER,PLAYER,Người Chơi
+RANKING_TYTLE,textranks1,textranks2
+
+TOPUP_TITLE_CARD,Card,Thẻ cào
+TOPUP_SERIAL,Serial Number,Số Serial
+TOPUP_PIN,Pin Code,Mã Pin
+TOPUP_NEW_CARD,New Card,Nhập thẻ
+TOPUP_SUBMIT,Submit,Gửi
+TOPUP_LIST_CARD,List Card:,Danh sách thẻ:
+TOPUP_TYTLE,texttopup1,texttopup2
+TOPUP_PURCHASED_SUCCESSFUL,"Purchased Successful","Nạp tiền thành công"
+TOPUP_IN_PROGRESS,"In progress, please wait...","Đang xử lý, vui lòng đợi..."
+TOPUP_PURCHASED_NOT_SUPPORTED,Billing not supported,Không hỗ trợ thanh toán
+DATA_MISTYPED,"You have entered invalid value. Please recheck again!","Bạn nhập sai dữ liệu, xin hãy kiểm tra lại!"
+
+INVITE_INVITE, {0} invite you to play {1} mode!, {0} mời bạn chơi chế độ {1}!
+INVITE_INVITE_BUTOON,Invite,Mời
+INVITE_TYTLE,invite1,invite2
+INVITE_FRIEND_NOT_FOUND,Your friend is not found,Không có người chơi rảnh rỗi
+
+LOGIN_GUEST,Guest,TK Khách
+
+ROOM,Room,Bàn
+NOTIFY_RECONNECT,The connection to Internet is failt. System automatically reconnect, Kết nối mạng bị mất. Hệ thống sẽ tự động kết nối lại 
+NO_READY,You were not ready for next game,Bạn chưa sẵn sàng cho ván mới
+CHAT_SEND,Send,Gửi
+CHAT_ENTER,"Touch here to chat!","Chạm vào đây để chat!"
+
+RANK_FIRST,nhat1,nhat2
+RANK_SECOND,nhi1,nhi2
+RANK_THIRD,ba1,ba2
+RANK_FOURTH,bet1,bet2
+THANG_TRANG,Thangtrang1,Thangtrang
+INSTANT_WIN,thang_eng,thang
+INSTANT_LOSE,thua_eng,thua
+INSTANT_WIN_TEXT,Instant Win,Thắng trắng
+LEVEL_UP,levelup,levelup
+HOTLINE,Hotline: 19001294,Hotline: 19001294
+DAILY_CHIP,You received {0} daily chip. Thanks for playing game, Bạn nhận được {0} xu hàng ngày. Chúc bạn chơi vui thắng lớn.
+SETTING_UPDATE,Your setting has been saved,Các thiết lập của bạn đã được lưu
+NOT_ENOUGH_MONEY,Not enough chip!,Không đủ chip!
+EXIT_IM,Exit Now,Thoát luôn
+WAIT_END_GAME, Wait, Đợi hết ván
+CHIP,Chip,Xu
+LEAVE_AT_GAME, I will leave at game ending, Tôi chơi hết ván này.
+KICK_CONFIRM, Do you want to kick this player?, Bạn muốn đuổi người này ra khỏi bàn?
+KICK_YES,Kick,Đuổi
+NOT_ENOUGH_CHIP_YES,Buy chips,Nạp tiền
+NOT_ENOUGH_CHIP_NO,Exit,Thoát
+
+DAILY_REWARD,Daily Reward: ,Thưởng hàng ngày: 
+DAILY_REWARD_INFO,Daily login recived free chip,Login hàng ngày để nhận xu
+DAILY_CHIP_DAY1,First day,Ngày thứ nhất
+DAILY_CHIP_DAY2,Second day,Ngày thứ hai
+DAILY_CHIP_DAY3,Third day,Ngày thứ ba
+DAILY_CHIP_DAY4,Fourth day,Ngày thứ tư
+DAILY_CHIP_DAY5,Fifth day,Ngày thứ năm
+DAILY_CHIP_DAY6,Sixth day,Ngày thứ sáu
+NOTIFY_UPDATE_LINK, Please update new version to play this game,Vui lòng cập nhật phiên bản mới để chơi game này. Cập nhật?
+
+
+OFFLINE_TITLE,Free southern poker, Game Tiến lên miễn phí
+OFFLINE_PLAY_NOW,Play Now,Bắt đầu
+OFFLINE_WELCOME,Welcome to our free version of southern poker. You can play this game with no need money and internet connection,Chào mừng bạn đến với phiên bản tiến lên miễn phí của chúng tôi. Bạn có thể chơi game này ngay cả khi không có xu và không cần kết nối mạng
+OFFLINE_RESUME_YES,Resume,Chơi tiếp
+OFFLINE_RESUME_NO,New Game,Ván mới
+OFFLINE_RESUME_QUESTION,Do you want to resume the last game?,Bạn tiếp tục chơi ván cũ hay chơi ván mới?
+OFFLINE_GS_RECONNECT_TIMEOUT,Internet connection not stable or interrupted. Do you want to play Boss Battle?, Kết nối mạng gián đoạn hoặc không ổn định. Bạn có muốn chơi đấu Boss không?
+OFFLINE_GS_RECONNECT_TIMEOUT_YES,Reconnect,Kết nối lại
+OFFLINE_GS_RECONNECT_TIMEOUT_NO,Play Boss Battle,Chơi đấu Boss
+
+INVITE_FB_FRIENDS_SUCCESS,"Successfully Invited","Đã gửi thành công"
+INVITE_FB_FRIENDS_ERROR,"Invite Error","Có lỗi khi gửi"
+INVITE_FB_FRIENDS_NOTPERMITTED,"Permision Not Permitted","Không có đủ quyền để gửi"
+
+BATTLE_TEAM,Team,Đấu đội
+BOMB_BATTLE,Solo,Đấu đơn
+KICKED_TIMEOUT,Connection very slow. Please play again!,Kết nối quá chậm. Chơi lại nào..
+NETWORK_UNSTABLE,Warning unstable network!, Cảnh báo mạng đang không ổn định!

@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: a5f36e8effdd451cae10207d69778326
+timeCreated: 1680562319
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 1
+  characterPadding: 0
+  includeFontData: 1
+  fontName: "FONTH___"
+  fontNames:
+  - Fontdinerdotcom Huggable
+  fallbackFontReferences: []
+  customCharacters:
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData:
+  assetBundleName: 
+  assetBundleVariant: 

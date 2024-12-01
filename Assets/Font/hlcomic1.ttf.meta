@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: 5661c5c48a6d4422a6b0c6a89cc94e2c
+timeCreated: 1680562327
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 1
+  characterPadding: 0
+  includeFontData: 1
+  fontName: "hlcomic1"
+  fontNames:
+  - HL Comic1
+  fallbackFontReferences: []
+  customCharacters:
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData:
+  assetBundleName: 
+  assetBundleVariant: 

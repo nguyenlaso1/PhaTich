@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: 6e97fb423399492d96bc54b962221200
+timeCreated: 1680562308
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 1
+  characterPadding: 0
+  includeFontData: 1
+  fontName: "Comic Book Italic"
+  fontNames:
+  - Comic Book
+  fallbackFontReferences: []
+  customCharacters:
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData:
+  assetBundleName: 
+  assetBundleVariant: 

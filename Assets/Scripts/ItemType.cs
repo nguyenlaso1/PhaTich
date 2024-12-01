@@ -1,0 +1,28 @@
+// @sonhg: class: ItemType
+using System;
+
+public enum ItemType
+{
+	DEFAULT,
+	SLOW,
+	SLOW2,
+	SNARE,
+	REVERSE,
+	FIREPOWER,
+	BOMB,
+	SHOES,
+	SHIELD,
+	GOLD,
+	TIMER,
+	INVISIBILITY,
+	SPRING,
+	STOP_TIME,
+	ADD_TIME,
+	FIRE_MAXIMUM,
+	CHEST,
+	HEALTH,
+	HASTE,
+	AUTO_FIRE,
+	DEATH,
+	RADAR
+}

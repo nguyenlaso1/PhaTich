@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: 80804b0f080a44dfacdee45c476d6780
+timeCreated: 1680562313
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 1
+  characterPadding: 0
+  includeFontData: 1
+  fontName: "Comic Book Bold Italic"
+  fontNames:
+  - Comic Book
+  fallbackFontReferences: []
+  customCharacters:
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData:
+  assetBundleName: 
+  assetBundleVariant: 
