@@ -55,13 +55,12 @@ namespace BombOffline
 			this.joyStick.knob.BusyColor = new Color(0f, 0f, 0f, 0f);
 			this.joyStick.lowerDeadZone = 0.3f;
 		}
-		bool phoneBuild = false;
+		//bool phoneBuild = false;
 		private void Update()
 		{
 			if (this.actor != null)
 			{
-				if (phoneBuild)
-                {
+				if (Application.platform == RuntimePlatform.Android || Application.platform == RuntimePlatform.IPhonePlayer) {
 					this.inputDevice = InputManager.ActiveDevice;
 					if (this.joyStickEnable)
 					{

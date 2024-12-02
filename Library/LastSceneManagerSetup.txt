@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/BombOffline/Scenes/OfflineMainScene.unity
+- path: Assets/BombOffline/Scenes/OfflineMainMenu.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0

@@ -1,0 +1,1662 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <LangVersion>7.3</LangVersion>
+  </PropertyGroup>
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <RootNamespace></RootNamespace>
+    <ProjectGuid>{5F57DD1D-DAAF-E7C0-9406-EA4D910210ED}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <BaseDirectory>.</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\Bin\Debug\</OutputPath>
+    <DefineConstants>UNITY_2019_4_40;UNITY_2019_4;UNITY_2019;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_2_OR_NEWER;UNITY_2018_3_OR_NEWER;UNITY_2018_4_OR_NEWER;UNITY_2019_1_OR_NEWER;UNITY_2019_2_OR_NEWER;UNITY_2019_3_OR_NEWER;UNITY_2019_4_OR_NEWER;UNITY_INCLUDE_TESTS;ENABLE_AR;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_EVENT_QUEUE;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_TEXTURE_STREAMING;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_UNITYWEBREQUEST;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_NATIVE_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_MANAGED_JOBS;ENABLE_MANAGED_TRANSFORM_JOBS;ENABLE_MANAGED_ANIMATION_JOBS;ENABLE_MANAGED_AUDIO_JOBS;ENABLE_RUNTIME_PERMISSIONS;ENABLE_ENGINE_CODE_STRIPPING;ENABLE_ONSCREEN_KEYBOARD;INCLUDE_DYNAMIC_GI;ENABLE_MONO_BDWGC;ENABLE_SCRIPTING_GC_WBARRIERS;PLATFORM_SUPPORTS_MONO;ENABLE_VIDEO;PLATFORM_ANDROID;UNITY_ANDROID;UNITY_ANDROID_API;ENABLE_EGL;ENABLE_NETWORK;ENABLE_RUNTIME_GI;ENABLE_CRUNCH_TEXTURE_COMPRESSION;PLATFORM_SUPPORTS_ADS_ID;UNITY_CAN_SHOW_SPLASH_SCREEN;UNITY_HAS_GOOGLEVR;UNITY_HAS_TANGO;ENABLE_SPATIALTRACKING;UNITY_ASTC_ONLY_DECOMPRESS;ENABLE_UNITYADS_RUNTIME;UNITY_UNITYADS_API;ENABLE_MONO;NET_4_6;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_UNITY_COLLECTIONS_CHECKS;ENABLE_BURST_AOT;UNITY_TEAM_LICENSE;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_DIRECTOR;ENABLE_LOCALIZATION;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_TILEMAP;ENABLE_TIMELINE;ENABLE_LEGACY_INPUT_MANAGER;CSHARP_7_OR_LATER;CSHARP_7_3_OR_NEWER</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+    <AllowUnsafeBlocks>False</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>Temp\bin\Release\</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+    <AllowUnsafeBlocks>False</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup>
+    <NoConfig>true</NoConfig>
+    <NoStdLib>true</NoStdLib>
+    <AddAdditionalExplicitAssemblyReferences>false</AddAdditionalExplicitAssemblyReferences>
+    <ImplicitlyExpandNETStandardFacades>false</ImplicitlyExpandNETStandardFacades>
+    <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ProjectTypeGuids>{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <UnityProjectGenerator>Package</UnityProjectGenerator>
+    <UnityProjectGeneratorVersion>2.0.15</UnityProjectGeneratorVersion>
+    <UnityProjectType>Game:1</UnityProjectType>
+    <UnityBuildTarget>Android:13</UnityBuildTarget>
+    <UnityVersion>2019.4.40f1</UnityVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Assets\NGUI-T5\Scripts\Interaction\EnvelopContent.cs" />
+    <Compile Include="Assets\NGUI-T5\Scripts\Interaction\LanguageSelection.cs" />
+    <Compile Include="Assets\NGUI-T5\Scripts\Interaction\TypewriterEffect.cs" />
+    <Compile Include="Assets\NGUI-T5\Scripts\Interaction\UIButton.cs" />
+    <Compile Include="Assets\NGUI-T5\Scripts\Interaction\UIButtonActivate.cs" />
+    <Compile Include="Assets\NGUI-T5\Scripts\Interaction\UIButtonColor.cs" />
+    <Compile Include="Assets\NGUI-T5\Scripts\Interaction\UIButtonKeys.cs" />
+    <Compile Include="Assets\NGUI-T5\Scripts\Interaction\UIButtonMessage.cs" />
+    <Compile Include="Assets\NGUI-T5\Scripts\Interaction\UIButtonOffset.cs" />
+    <Compile Include="Assets\NGUI-T5\Scripts\Interaction\UIButtonRotation.cs" />
+    <Compile Include="Assets\NGUI-T5\Scripts\Interaction\UIButtonScale.cs" />
+    <Compile Include="Assets\NGUI-T5\Scripts\Interaction\UICenterOnChild.cs" />
+    <Compile Include="Assets\NGUI-T5\Scripts\Interaction\UICenterOnClick.cs" />
+    <Compile Include="Assets\NGUI-T5\Scripts\Interaction\UIDragCamera.cs" />
+    <Compile Include="Assets\NGUI-T5\Scripts\Interaction\UIDragDropContainer.cs" />
+    <Compile Include="Assets\NGUI-T5\Scripts\Interaction\UIDragDropItem.cs" />
+    <Compile Include="Assets\NGUI-T5\Scripts\Interaction\UIDragDropRoot.cs" />
+    <Compile Include="Assets\NGUI-T5\Scripts\Interaction\UIDragObject.cs" />
+    <Compile Include="Assets\NGUI-T5\Scripts\Interaction\UIDragResize.cs" />
+    <Compile Include="Assets\NGUI-T5\Scripts\Interaction\UIDragScrollView.cs" />
+    <Compile Include="Assets\NGUI-T5\Scripts\Interaction\UIDraggableCamera.cs" />
+    <Compile Include="Assets\NGUI-T5\Scripts\Interaction\UIEventTrigger.cs" />
+    <Compile Include="Assets\NGUI-T5\Scripts\Interaction\UIForwardEvents.cs" />
+    <Compile Include="Assets\NGUI-T5\Scripts\Interaction\UIGrid.cs" />
+    <Compile Include="Assets\NGUI-T5\Scripts\Interaction\UIImageButton.cs" />
+    <Compile Include="Assets\NGUI-T5\Scripts\Interaction\UIKeyBinding.cs" />
+    <Compile Include="Assets\NGUI-T5\Scripts\Interaction\UIKeyNavigation.cs" />
+    <Compile Include="Assets\NGUI-T5\Scripts\Interaction\UIPlayAnimation.cs" />
+    <Compile Include="Assets\NGUI-T5\Scripts\Interaction\UIPlaySound.cs" />
+    <Compile Include="Assets\NGUI-T5\Scripts\Interaction\UIPlayTween.cs" />
+    <Compile Include="Assets\NGUI-T5\Scripts\Interaction\UIPopupList.cs" />
+    <Compile Include="Assets\NGUI-T5\Scripts\Interaction\UIProgressBar.cs" />
+    <Compile Include="Assets\NGUI-T5\Scripts\Interaction\UISavedOption.cs" />
+    <Compile Include="Assets\NGUI-T5\Scripts\Interaction\UIScrollBar.cs" />
+    <Compile Include="Assets\NGUI-T5\Scripts\Interaction\UIScrollView.cs" />
+    <Compile Include="Assets\NGUI-T5\Scripts\Interaction\UIShowControlScheme.cs" />
+    <Compile Include="Assets\NGUI-T5\Scripts\Interaction\UISlider.cs" />
+    <Compile Include="Assets\NGUI-T5\Scripts\Interaction\UISoundVolume.cs" />
+    <Compile Include="Assets\NGUI-T5\Scripts\Interaction\UITable.cs" />
+    <Compile Include="Assets\NGUI-T5\Scripts\Interaction\UIToggle.cs" />
+    <Compile Include="Assets\NGUI-T5\Scripts\Interaction\UIToggledComponents.cs" />
+    <Compile Include="Assets\NGUI-T5\Scripts\Interaction\UIToggledObjects.cs" />
+    <Compile Include="Assets\NGUI-T5\Scripts\Interaction\UIWidgetContainer.cs" />
+    <Compile Include="Assets\NGUI-T5\Scripts\Interaction\UIWrapContent.cs" />
+    <Compile Include="Assets\NGUI-T5\Scripts\Internal\ActiveAnimation.cs" />
+    <Compile Include="Assets\NGUI-T5\Scripts\Internal\AnimationOrTween.cs" />
+    <Compile Include="Assets\NGUI-T5\Scripts\Internal\BMFont.cs" />
+    <Compile Include="Assets\NGUI-T5\Scripts\Internal\BMGlyph.cs" />
+    <Compile Include="Assets\NGUI-T5\Scripts\Internal\BMSymbol.cs" />
+    <Compile Include="Assets\NGUI-T5\Scripts\Internal\BetterList.cs" />
+    <Compile Include="Assets\NGUI-T5\Scripts\Internal\EventDelegate.cs" />
+    <Compile Include="Assets\NGUI-T5\Scripts\Internal\Localization.cs" />
+    <Compile Include="Assets\NGUI-T5\Scripts\Internal\NGUIDebug.cs" />
+    <Compile Include="Assets\NGUI-T5\Scripts\Internal\NGUIMath.cs" />
+    <Compile Include="Assets\NGUI-T5\Scripts\Internal\NGUIText.cs" />
+    <Compile Include="Assets\NGUI-T5\Scripts\Internal\NGUITools.cs" />
+    <Compile Include="Assets\NGUI-T5\Scripts\Internal\NGUIUtils.cs" />
+    <Compile Include="Assets\NGUI-T5\Scripts\Internal\PropertyBinding.cs" />
+    <Compile Include="Assets\NGUI-T5\Scripts\Internal\PropertyReference.cs" />
+    <Compile Include="Assets\NGUI-T5\Scripts\Internal\RealTime.cs" />
+    <Compile Include="Assets\NGUI-T5\Scripts\Internal\SpringPanel.cs" />
+    <Compile Include="Assets\NGUI-T5\Scripts\Internal\UIBasicSprite.cs" />
+    <Compile Include="Assets\NGUI-T5\Scripts\Internal\UIDrawCall.cs" />
+    <Compile Include="Assets\NGUI-T5\Scripts\Internal\UIEventListener.cs" />
+    <Compile Include="Assets\NGUI-T5\Scripts\Internal\UIGeometry.cs" />
+    <Compile Include="Assets\NGUI-T5\Scripts\Internal\UIRect.cs" />
+    <Compile Include="Assets\NGUI-T5\Scripts\Internal\UISnapshotPoint.cs" />
+    <Compile Include="Assets\NGUI-T5\Scripts\Internal\UIWidget.cs" />
+    <Compile Include="Assets\NGUI-T5\Scripts\Tweening\AnimatedAlpha.cs" />
+    <Compile Include="Assets\NGUI-T5\Scripts\Tweening\AnimatedColor.cs" />
+    <Compile Include="Assets\NGUI-T5\Scripts\Tweening\AnimatedWidget.cs" />
+    <Compile Include="Assets\NGUI-T5\Scripts\Tweening\SpringPosition.cs" />
+    <Compile Include="Assets\NGUI-T5\Scripts\Tweening\TweenAlpha.cs" />
+    <Compile Include="Assets\NGUI-T5\Scripts\Tweening\TweenColor.cs" />
+    <Compile Include="Assets\NGUI-T5\Scripts\Tweening\TweenFOV.cs" />
+    <Compile Include="Assets\NGUI-T5\Scripts\Tweening\TweenFill.cs" />
+    <Compile Include="Assets\NGUI-T5\Scripts\Tweening\TweenHeight.cs" />
+    <Compile Include="Assets\NGUI-T5\Scripts\Tweening\TweenOrthoSize.cs" />
+    <Compile Include="Assets\NGUI-T5\Scripts\Tweening\TweenPosition.cs" />
+    <Compile Include="Assets\NGUI-T5\Scripts\Tweening\TweenRotation.cs" />
+    <Compile Include="Assets\NGUI-T5\Scripts\Tweening\TweenScale.cs" />
+    <Compile Include="Assets\NGUI-T5\Scripts\Tweening\TweenTransform.cs" />
+    <Compile Include="Assets\NGUI-T5\Scripts\Tweening\TweenVolume.cs" />
+    <Compile Include="Assets\NGUI-T5\Scripts\Tweening\TweenWidth.cs" />
+    <Compile Include="Assets\NGUI-T5\Scripts\Tweening\UITweener.cs" />
+    <Compile Include="Assets\NGUI-T5\Scripts\UI\UI2DSprite.cs" />
+    <Compile Include="Assets\NGUI-T5\Scripts\UI\UI2DSpriteAnimation.cs" />
+    <Compile Include="Assets\NGUI-T5\Scripts\UI\UIAnchor.cs" />
+    <Compile Include="Assets\NGUI-T5\Scripts\UI\UIAtlas.cs" />
+    <Compile Include="Assets\NGUI-T5\Scripts\UI\UICamera.cs" />
+    <Compile Include="Assets\NGUI-T5\Scripts\UI\UIColorPicker.cs" />
+    <Compile Include="Assets\NGUI-T5\Scripts\UI\UIFont.cs" />
+    <Compile Include="Assets\NGUI-T5\Scripts\UI\UIInput.cs" />
+    <Compile Include="Assets\NGUI-T5\Scripts\UI\UIInputOnGUI.cs" />
+    <Compile Include="Assets\NGUI-T5\Scripts\UI\UILabel.cs" />
+    <Compile Include="Assets\NGUI-T5\Scripts\UI\UILocalize.cs" />
+    <Compile Include="Assets\NGUI-T5\Scripts\UI\UIOrthoCamera.cs" />
+    <Compile Include="Assets\NGUI-T5\Scripts\UI\UIPanel.cs" />
+    <Compile Include="Assets\NGUI-T5\Scripts\UI\UIRoot.cs" />
+    <Compile Include="Assets\NGUI-T5\Scripts\UI\UISprite.cs" />
+    <Compile Include="Assets\NGUI-T5\Scripts\UI\UISpriteAnimation.cs" />
+    <Compile Include="Assets\NGUI-T5\Scripts\UI\UISpriteData.cs" />
+    <Compile Include="Assets\NGUI-T5\Scripts\UI\UIStretch.cs" />
+    <Compile Include="Assets\NGUI-T5\Scripts\UI\UITextList.cs" />
+    <Compile Include="Assets\NGUI-T5\Scripts\UI\UITexture.cs" />
+    <Compile Include="Assets\NGUI-T5\Scripts\UI\UITooltip.cs" />
+    <Compile Include="Assets\NGUI-T5\Scripts\UI\UIViewport.cs" />
+    <Compile Include="Assets\Scripts\AIMove.cs" />
+    <Compile Include="Assets\Scripts\AIMoveTo.cs" />
+    <Compile Include="Assets\Scripts\API.cs" />
+    <Compile Include="Assets\Scripts\AccountType.cs" />
+    <Compile Include="Assets\Scripts\ActionFacebook.cs" />
+    <Compile Include="Assets\Scripts\ActionState.cs" />
+    <Compile Include="Assets\Scripts\AdViewTest.cs" />
+    <Compile Include="Assets\Scripts\AdsController.cs" />
+    <Compile Include="Assets\Scripts\AdsStatus.cs" />
+    <Compile Include="Assets\Scripts\Analystics.cs" />
+    <Compile Include="Assets\Scripts\AnimationDictionary.cs" />
+    <Compile Include="Assets\Scripts\Assets.cs" />
+    <Compile Include="Assets\Scripts\AudienceNetwork_Utility\AdUtility.cs" />
+    <Compile Include="Assets\Scripts\AudienceNetwork_Utility\AdUtilityBridge.cs" />
+    <Compile Include="Assets\Scripts\AudienceNetwork_Utility\AdUtilityBridgeAndroid.cs" />
+    <Compile Include="Assets\Scripts\AudienceNetwork_Utility\IAdUtilityBridge.cs" />
+    <Compile Include="Assets\Scripts\AutoFade.cs" />
+    <Compile Include="Assets\Scripts\AvatarController.cs" />
+    <Compile Include="Assets\Scripts\AvatarItem.cs" />
+    <Compile Include="Assets\Scripts\BackServerRequest.cs" />
+    <Compile Include="Assets\Scripts\BackServerType.cs" />
+    <Compile Include="Assets\Scripts\BaseAnimation.cs" />
+    <Compile Include="Assets\Scripts\BaseAvatarContainer.cs" />
+    <Compile Include="Assets\Scripts\BaseBox.cs" />
+    <Compile Include="Assets\Scripts\BaseBullet.cs" />
+    <Compile Include="Assets\Scripts\BaseCharactersController.cs" />
+    <Compile Include="Assets\Scripts\BaseGameInfo.cs" />
+    <Compile Include="Assets\Scripts\BaseInputCommand.cs" />
+    <Compile Include="Assets\Scripts\BaseParams.cs" />
+    <Compile Include="Assets\Scripts\BaseRequest.cs" />
+    <Compile Include="Assets\Scripts\BaseResponse.cs" />
+    <Compile Include="Assets\Scripts\BaseRocket.cs" />
+    <Compile Include="Assets\Scripts\BaseScene.cs" />
+    <Compile Include="Assets\Scripts\BaseTimerController.cs" />
+    <Compile Include="Assets\Scripts\Battle\BombScene.cs" />
+    <Compile Include="Assets\Scripts\BattleTeam\BattleTeamScene.cs" />
+    <Compile Include="Assets\Scripts\BattleTeam\EndGameResponse.cs" />
+    <Compile Include="Assets\Scripts\BattleTeam\InitGameMapResponse.cs" />
+    <Compile Include="Assets\Scripts\BigFox\BigFoxFB.cs" />
+    <Compile Include="Assets\Scripts\BigFox\FBActionCallBack.cs" />
+    <Compile Include="Assets\Scripts\Bomb\BaseBuffSystem.cs" />
+    <Compile Include="Assets\Scripts\Bomb\BaseSettingBox.cs" />
+    <Compile Include="Assets\Scripts\Bomb\BombExplosionResponse.cs" />
+    <Compile Include="Assets\Scripts\Bomb\BombGameScene.cs" />
+    <Compile Include="Assets\Scripts\Bomb\BombParams.cs" />
+    <Compile Include="Assets\Scripts\Bomb\BombRequest.cs" />
+    <Compile Include="Assets\Scripts\Bomb\BombRequestCmds.cs" />
+    <Compile Include="Assets\Scripts\Bomb\BombResponse.cs" />
+    <Compile Include="Assets\Scripts\Bomb\BombResponseCmds.cs" />
+    <Compile Include="Assets\Scripts\Bomb\BombRoomParams.cs" />
+    <Compile Include="Assets\Scripts\Bomb\BombRoomUtils.cs" />
+    <Compile Include="Assets\Scripts\Bomb\BombTask.cs" />
+    <Compile Include="Assets\Scripts\Bomb\BombTimeConstant.cs" />
+    <Compile Include="Assets\Scripts\Bomb\BombUserReadyRequest.cs" />
+    <Compile Include="Assets\Scripts\Bomb\BombUserUtils.cs" />
+    <Compile Include="Assets\Scripts\Bomb\BombUserVariables.cs" />
+    <Compile Include="Assets\Scripts\Bomb\BomberMainMenu.cs" />
+    <Compile Include="Assets\Scripts\Bomb\BotBuffSystem.cs" />
+    <Compile Include="Assets\Scripts\Bomb\BotStupidController.cs" />
+    <Compile Include="Assets\Scripts\Bomb\BuyItemInGameRequest.cs" />
+    <Compile Include="Assets\Scripts\Bomb\BuyItemInGameResponse.cs" />
+    <Compile Include="Assets\Scripts\Bomb\ChooseMapRequest.cs" />
+    <Compile Include="Assets\Scripts\Bomb\ChoosePositionRequest.cs" />
+    <Compile Include="Assets\Scripts\Bomb\CreateRoomRequest.cs" />
+    <Compile Include="Assets\Scripts\Bomb\DieRequest.cs" />
+    <Compile Include="Assets\Scripts\Bomb\DieResponse.cs" />
+    <Compile Include="Assets\Scripts\Bomb\EndGameResponse.cs" />
+    <Compile Include="Assets\Scripts\Bomb\EnemyBuffSystem.cs" />
+    <Compile Include="Assets\Scripts\Bomb\EnemyController.cs" />
+    <Compile Include="Assets\Scripts\Bomb\FreeCoinType.cs" />
+    <Compile Include="Assets\Scripts\Bomb\GameClockTimerController.cs" />
+    <Compile Include="Assets\Scripts\Bomb\GameController.cs" />
+    <Compile Include="Assets\Scripts\Bomb\HitBombRequest.cs" />
+    <Compile Include="Assets\Scripts\Bomb\HitBombResponse.cs" />
+    <Compile Include="Assets\Scripts\Bomb\HotEventRequest.cs" />
+    <Compile Include="Assets\Scripts\Bomb\HotEventResponse.cs" />
+    <Compile Include="Assets\Scripts\Bomb\InitGameMapResponse.cs" />
+    <Compile Include="Assets\Scripts\Bomb\ItemController.cs" />
+    <Compile Include="Assets\Scripts\Bomb\ItemResponse.cs" />
+    <Compile Include="Assets\Scripts\Bomb\JoinRoomErrorResponse.cs" />
+    <Compile Include="Assets\Scripts\Bomb\KickBombRequest.cs" />
+    <Compile Include="Assets\Scripts\Bomb\KickBombResponse.cs" />
+    <Compile Include="Assets\Scripts\Bomb\LevelUpResponse.cs" />
+    <Compile Include="Assets\Scripts\Bomb\MMOUserUtils.cs" />
+    <Compile Include="Assets\Scripts\Bomb\MapController.cs" />
+    <Compile Include="Assets\Scripts\Bomb\MapSettingBox.cs" />
+    <Compile Include="Assets\Scripts\Bomb\MoveRequest.cs" />
+    <Compile Include="Assets\Scripts\Bomb\Offline_FreeCoinItem.cs" />
+    <Compile Include="Assets\Scripts\Bomb\Offline_FreeGoldAds.cs" />
+    <Compile Include="Assets\Scripts\Bomb\ParticlesController.cs" />
+    <Compile Include="Assets\Scripts\Bomb\PickItemRequest.cs" />
+    <Compile Include="Assets\Scripts\Bomb\PickItemResponse.cs" />
+    <Compile Include="Assets\Scripts\Bomb\Player.cs" />
+    <Compile Include="Assets\Scripts\Bomb\PlayerBuffSystem.cs" />
+    <Compile Include="Assets\Scripts\Bomb\PlayerController.cs" />
+    <Compile Include="Assets\Scripts\Bomb\ProfileBox.cs" />
+    <Compile Include="Assets\Scripts\Bomb\StartGameRequest.cs" />
+    <Compile Include="Assets\Scripts\Bomb\WaittingRoom.cs" />
+    <Compile Include="Assets\Scripts\BombCommonCmdTags.cs" />
+    <Compile Include="Assets\Scripts\BombConfigUtils.cs" />
+    <Compile Include="Assets\Scripts\BombModel.cs" />
+    <Compile Include="Assets\Scripts\BombOffline\AchievementBox.cs" />
+    <Compile Include="Assets\Scripts\BombOffline\AchievementItem.cs" />
+    <Compile Include="Assets\Scripts\BombOffline\Achievements.cs" />
+    <Compile Include="Assets\Scripts\BombOffline\AngryCactus.cs" />
+    <Compile Include="Assets\Scripts\BombOffline\BabeZombie.cs" />
+    <Compile Include="Assets\Scripts\BombOffline\BaseEggMonster.cs" />
+    <Compile Include="Assets\Scripts\BombOffline\Bee.cs" />
+    <Compile Include="Assets\Scripts\BombOffline\BigDespider.cs" />
+    <Compile Include="Assets\Scripts\BombOffline\BombSaveGame.cs" />
+    <Compile Include="Assets\Scripts\BombOffline\BomberAds.cs" />
+    <Compile Include="Assets\Scripts\BombOffline\ChaosMeteor.cs" />
+    <Compile Include="Assets\Scripts\BombOffline\CoupyStone.cs" />
+    <Compile Include="Assets\Scripts\BombOffline\Cracar.cs" />
+    <Compile Include="Assets\Scripts\BombOffline\CursedJelly.cs" />
+    <Compile Include="Assets\Scripts\BombOffline\Demonbat.cs" />
+    <Compile Include="Assets\Scripts\BombOffline\Dengurin.cs" />
+    <Compile Include="Assets\Scripts\BombOffline\Despider.cs" />
+    <Compile Include="Assets\Scripts\BombOffline\EvilBurger.cs" />
+    <Compile Include="Assets\Scripts\BombOffline\ExtraLifeBox.cs" />
+    <Compile Include="Assets\Scripts\BombOffline\FacebookAds.cs" />
+    <Compile Include="Assets\Scripts\BombOffline\FireBallBullet.cs" />
+    <Compile Include="Assets\Scripts\BombOffline\FireWall.cs" />
+    <Compile Include="Assets\Scripts\BombOffline\FootTrace.cs" />
+    <Compile Include="Assets\Scripts\BombOffline\FreakyEgg.cs" />
+    <Compile Include="Assets\Scripts\BombOffline\GameProgress.cs" />
+    <Compile Include="Assets\Scripts\BombOffline\GlassPenguin.cs" />
+    <Compile Include="Assets\Scripts\BombOffline\IAlert.cs" />
+    <Compile Include="Assets\Scripts\BombOffline\ISpecialAction.cs" />
+    <Compile Include="Assets\Scripts\BombOffline\IceBall.cs" />
+    <Compile Include="Assets\Scripts\BombOffline\IceTower.cs" />
+    <Compile Include="Assets\Scripts\BombOffline\Kabuton.cs" />
+    <Compile Include="Assets\Scripts\BombOffline\Kamarin.cs" />
+    <Compile Include="Assets\Scripts\BombOffline\Kamestone.cs" />
+    <Compile Include="Assets\Scripts\BombOffline\LandMine.cs" />
+    <Compile Include="Assets\Scripts\BombOffline\LavaSurger.cs" />
+    <Compile Include="Assets\Scripts\BombOffline\LeaderBoardBox.cs" />
+    <Compile Include="Assets\Scripts\BombOffline\LivingFlame.cs" />
+    <Compile Include="Assets\Scripts\BombOffline\LivingOasis.cs" />
+    <Compile Include="Assets\Scripts\BombOffline\LockArmoured.cs" />
+    <Compile Include="Assets\Scripts\BombOffline\Lolitop.cs" />
+    <Compile Include="Assets\Scripts\BombOffline\MadFlower.cs" />
+    <Compile Include="Assets\Scripts\BombOffline\Magmagan.cs" />
+    <Compile Include="Assets\Scripts\BombOffline\MapFinder_TPathNode, TUserContext_.cs" />
+    <Compile Include="Assets\Scripts\BombOffline\MapNode.cs" />
+    <Compile Include="Assets\Scripts\BombOffline\MasterZombie0.cs" />
+    <Compile Include="Assets\Scripts\BombOffline\MasterZombie1.cs" />
+    <Compile Include="Assets\Scripts\BombOffline\Minigun.cs" />
+    <Compile Include="Assets\Scripts\BombOffline\Minilight.cs" />
+    <Compile Include="Assets\Scripts\BombOffline\MonsterBomb.cs" />
+    <Compile Include="Assets\Scripts\BombOffline\Nightwalker.cs" />
+    <Compile Include="Assets\Scripts\BombOffline\NovaGolem.cs" />
+    <Compile Include="Assets\Scripts\BombOffline\ObstacleType.cs" />
+    <Compile Include="Assets\Scripts\BombOffline\OfflineAdmob.cs" />
+    <Compile Include="Assets\Scripts\BombOffline\OfflineEndGamePanel.cs" />
+    <Compile Include="Assets\Scripts\BombOffline\OfflineLevelItem.cs" />
+    <Compile Include="Assets\Scripts\BombOffline\OfflineMapChooser.cs" />
+    <Compile Include="Assets\Scripts\BombOffline\Offline_BaseBuffSystem.cs" />
+    <Compile Include="Assets\Scripts\BombOffline\Offline_BaseCharactersController.cs" />
+    <Compile Include="Assets\Scripts\BombOffline\Offline_BaseCommand.cs" />
+    <Compile Include="Assets\Scripts\BombOffline\Offline_BaseMapController.cs" />
+    <Compile Include="Assets\Scripts\BombOffline\Offline_BaseMonster.cs" />
+    <Compile Include="Assets\Scripts\BombOffline\Offline_Bomb.cs" />
+    <Compile Include="Assets\Scripts\BombOffline\Offline_BombScene.cs" />
+    <Compile Include="Assets\Scripts\BombOffline\Offline_BorderWall.cs" />
+    <Compile Include="Assets\Scripts\BombOffline\Offline_Bot.cs" />
+    <Compile Include="Assets\Scripts\BombOffline\Offline_CleverMonster.cs" />
+    <Compile Include="Assets\Scripts\BombOffline\Offline_Context.cs" />
+    <Compile Include="Assets\Scripts\BombOffline\Offline_DailyBonus.cs" />
+    <Compile Include="Assets\Scripts\BombOffline\Offline_DailyBonusItem.cs" />
+    <Compile Include="Assets\Scripts\BombOffline\Offline_DrawRayCast.cs" />
+    <Compile Include="Assets\Scripts\BombOffline\Offline_GameController.cs" />
+    <Compile Include="Assets\Scripts\BombOffline\Offline_InputHandler.cs" />
+    <Compile Include="Assets\Scripts\BombOffline\Offline_ItemController.cs" />
+    <Compile Include="Assets\Scripts\BombOffline\Offline_JumpCommand.cs" />
+    <Compile Include="Assets\Scripts\BombOffline\Offline_MapController.cs" />
+    <Compile Include="Assets\Scripts\BombOffline\Offline_MoveCommand.cs" />
+    <Compile Include="Assets\Scripts\BombOffline\Offline_Obstacle.cs" />
+    <Compile Include="Assets\Scripts\BombOffline\Offline_ParticlesController.cs" />
+    <Compile Include="Assets\Scripts\BombOffline\Offline_PlayerBuffSystem.cs" />
+    <Compile Include="Assets\Scripts\BombOffline\Offline_PlayerController.cs" />
+    <Compile Include="Assets\Scripts\BombOffline\Offline_StupidMonster.cs" />
+    <Compile Include="Assets\Scripts\BombOffline\Offline_TapToPlayScreen.cs" />
+    <Compile Include="Assets\Scripts\BombOffline\Offline_Tiled.cs" />
+    <Compile Include="Assets\Scripts\BombOffline\Offline_TopupInappRemoveAds.cs" />
+    <Compile Include="Assets\Scripts\BombOffline\PoisonTrap.cs" />
+    <Compile Include="Assets\Scripts\BombOffline\QueenBee.cs" />
+    <Compile Include="Assets\Scripts\BombOffline\RainbowDonut.cs" />
+    <Compile Include="Assets\Scripts\BombOffline\ShareFacebookBox.cs" />
+    <Compile Include="Assets\Scripts\BombOffline\Skeleton.cs" />
+    <Compile Include="Assets\Scripts\BombOffline\SwampJelly.cs" />
+    <Compile Include="Assets\Scripts\BombOffline\SwampTile.cs" />
+    <Compile Include="Assets\Scripts\BombOffline\TankWhale.cs" />
+    <Compile Include="Assets\Scripts\BombOffline\ToxicBox.cs" />
+    <Compile Include="Assets\Scripts\BombOffline\Vulture.cs" />
+    <Compile Include="Assets\Scripts\BombOffline\ZoneItem.cs" />
+    <Compile Include="Assets\Scripts\BombRoomVariables.cs" />
+    <Compile Include="Assets\Scripts\BombScript.cs" />
+    <Compile Include="Assets\Scripts\BomberMainMenuNGUI.cs" />
+    <Compile Include="Assets\Scripts\Button_EventHandler.cs" />
+    <Compile Include="Assets\Scripts\BuyUserItemRequest.cs" />
+    <Compile Include="Assets\Scripts\ByteReader.cs" />
+    <Compile Include="Assets\Scripts\CFX2_AutoRotate.cs" />
+    <Compile Include="Assets\Scripts\CFX2_Demo.cs" />
+    <Compile Include="Assets\Scripts\CFX_AutoDestructShuriken.cs" />
+    <Compile Include="Assets\Scripts\CFX_AutodestructWhenNoChildren.cs" />
+    <Compile Include="Assets\Scripts\CFX_Demo_RandomDir.cs" />
+    <Compile Include="Assets\Scripts\CFX_Demo_RotateCamera.cs" />
+    <Compile Include="Assets\Scripts\CFX_LightIntensityFade.cs" />
+    <Compile Include="Assets\Scripts\CFX_ShurikenThreadFix.cs" />
+    <Compile Include="Assets\Scripts\CFX_SpawnSystem.cs" />
+    <Compile Include="Assets\Scripts\CardItem.cs" />
+    <Compile Include="Assets\Scripts\CardItemInfo.cs" />
+    <Compile Include="Assets\Scripts\CardSMSRequest.cs" />
+    <Compile Include="Assets\Scripts\CharacterStatus.cs" />
+    <Compile Include="Assets\Scripts\ChatBox.cs" />
+    <Compile Include="Assets\Scripts\CheckBombCollider.cs" />
+    <Compile Include="Assets\Scripts\CheckCanMove.cs" />
+    <Compile Include="Assets\Scripts\CheckPlayerInRange.cs" />
+    <Compile Include="Assets\Scripts\ChooseGameRequest.cs" />
+    <Compile Include="Assets\Scripts\ChooseModeBox.cs" />
+    <Compile Include="Assets\Scripts\ClockTimerController.cs" />
+    <Compile Include="Assets\Scripts\Cloud.cs" />
+    <Compile Include="Assets\Scripts\CommonCmdTags.cs" />
+    <Compile Include="Assets\Scripts\Config.cs" />
+    <Compile Include="Assets\Scripts\ConfirmBox.cs" />
+    <Compile Include="Assets\Scripts\Context.cs" />
+    <Compile Include="Assets\Scripts\Coroutiner.cs" />
+    <Compile Include="Assets\Scripts\CoroutinerInstance.cs" />
+    <Compile Include="Assets\Scripts\CutCharacter.cs" />
+    <Compile Include="Assets\Scripts\DailyRewardBox.cs" />
+    <Compile Include="Assets\Scripts\DataManager.cs" />
+    <Compile Include="Assets\Scripts\DataRow.cs" />
+    <Compile Include="Assets\Scripts\DataTable.cs" />
+    <Compile Include="Assets\Scripts\DateUtils.cs" />
+    <Compile Include="Assets\Scripts\Demo.cs" />
+    <Compile Include="Assets\Scripts\DeviceOS.cs" />
+    <Compile Include="Assets\Scripts\DoorSpawn.cs" />
+    <Compile Include="Assets\Scripts\DrawCurveUtil.cs" />
+    <Compile Include="Assets\Scripts\DrawRayCast.cs" />
+    <Compile Include="Assets\Scripts\EQ_CloudFlow.cs" />
+    <Compile Include="Assets\Scripts\EQ_OrbitCamera.cs" />
+    <Compile Include="Assets\Scripts\EQ_TestParticles.cs" />
+    <Compile Include="Assets\Scripts\EclipseBullet.cs" />
+    <Compile Include="Assets\Scripts\EndGamePanel.cs" />
+    <Compile Include="Assets\Scripts\EndGameSlot.cs" />
+    <Compile Include="Assets\Scripts\EnemyAStar.cs" />
+    <Compile Include="Assets\Scripts\EnumUtils.cs" />
+    <Compile Include="Assets\Scripts\ExceptionHandler.cs" />
+    <Compile Include="Assets\Scripts\ExceptionResponse.cs" />
+    <Compile Include="Assets\Scripts\FXQ_2D_Demo.cs" />
+    <Compile Include="Assets\Scripts\FXQ_3D_Demo.cs" />
+    <Compile Include="Assets\Scripts\FXQ_Adamantine.cs" />
+    <Compile Include="Assets\Scripts\FXQ_MoveParticle.cs" />
+    <Compile Include="Assets\Scripts\FXQ_OrbitCamera.cs" />
+    <Compile Include="Assets\Scripts\FXQ_ParticleType.cs" />
+    <Compile Include="Assets\Scripts\FXQ_RotateShapeParticle.cs" />
+    <Compile Include="Assets\Scripts\FXQ_SoundController.cs" />
+    <Compile Include="Assets\Scripts\FXQ_TargetAnimatorEvent.cs" />
+    <Compile Include="Assets\Scripts\FeedBackBox.cs" />
+    <Compile Include="Assets\Scripts\FeedBackRequest.cs" />
+    <Compile Include="Assets\Scripts\FileIOUtils.cs" />
+    <Compile Include="Assets\Scripts\FindingPath.cs" />
+    <Compile Include="Assets\Scripts\FireLazer.cs" />
+    <Compile Include="Assets\Scripts\FlashBullet.cs" />
+    <Compile Include="Assets\Scripts\FullScreenResize.cs" />
+    <Compile Include="Assets\Scripts\FunctionExtension.cs" />
+    <Compile Include="Assets\Scripts\GameButton.cs" />
+    <Compile Include="Assets\Scripts\GameInfoAndroid.cs" />
+    <Compile Include="Assets\Scripts\GameInfoHTML5.cs" />
+    <Compile Include="Assets\Scripts\GameInfoIOS.cs" />
+    <Compile Include="Assets\Scripts\GameInfoMultiEXE.cs" />
+    <Compile Include="Assets\Scripts\GameInfoMultiEditor.cs" />
+    <Compile Include="Assets\Scripts\GameInfoSingleEXE.cs" />
+    <Compile Include="Assets\Scripts\GameInfoSingleEditor.cs" />
+    <Compile Include="Assets\Scripts\GameInfoWP.cs" />
+    <Compile Include="Assets\Scripts\GameInfoWebPlayer.cs" />
+    <Compile Include="Assets\Scripts\GameItem.cs" />
+    <Compile Include="Assets\Scripts\GameManager.cs" />
+    <Compile Include="Assets\Scripts\GameNames.cs" />
+    <Compile Include="Assets\Scripts\GameScene.cs" />
+    <Compile Include="Assets\Scripts\GameStateManager.cs" />
+    <Compile Include="Assets\Scripts\GetColor.cs" />
+    <Compile Include="Assets\Scripts\GetUserItemRequest.cs" />
+    <Compile Include="Assets\Scripts\GetUsertemResponse.cs" />
+    <Compile Include="Assets\Scripts\GoogleAnalytic.cs" />
+    <Compile Include="Assets\Scripts\GooglePlayGames_Android\TokenResult.cs" />
+    <Compile Include="Assets\Scripts\GooglePlayGames_Android\TokenResultCallback.cs" />
+    <Compile Include="Assets\Scripts\GooglePlayGames_BasicApi\DataSource.cs" />
+    <Compile Include="Assets\Scripts\GooglePlayGames_BasicApi\LeaderboardCollection.cs" />
+    <Compile Include="Assets\Scripts\GooglePlayGames_BasicApi\LeaderboardStart.cs" />
+    <Compile Include="Assets\Scripts\GooglePlayGames_BasicApi\LeaderboardTimeSpan.cs" />
+    <Compile Include="Assets\Scripts\GooglePlayGames_BasicApi\OnStateLoadedListener.cs" />
+    <Compile Include="Assets\Scripts\GooglePlayGames_BasicApi\ResponseStatus.cs" />
+    <Compile Include="Assets\Scripts\GooglePlayGames_BasicApi\UIStatus.cs" />
+    <Compile Include="Assets\Scripts\GooglePlayGames_BasicApi_Events\EventVisibility.cs" />
+    <Compile Include="Assets\Scripts\GooglePlayGames_BasicApi_Nearby\IDiscoveryListener.cs" />
+    <Compile Include="Assets\Scripts\GooglePlayGames_BasicApi_Nearby\IMessageListener.cs" />
+    <Compile Include="Assets\Scripts\GooglePlayGames_BasicApi_Nearby\InitializationStatus.cs" />
+    <Compile Include="Assets\Scripts\GooglePlayGames_BasicApi_Quests\MilestoneState.cs" />
+    <Compile Include="Assets\Scripts\GooglePlayGames_BasicApi_Quests\QuestAcceptStatus.cs" />
+    <Compile Include="Assets\Scripts\GooglePlayGames_BasicApi_Quests\QuestClaimMilestoneStatus.cs" />
+    <Compile Include="Assets\Scripts\GooglePlayGames_BasicApi_Quests\QuestFetchFlags.cs" />
+    <Compile Include="Assets\Scripts\GooglePlayGames_BasicApi_Quests\QuestState.cs" />
+    <Compile Include="Assets\Scripts\GooglePlayGames_BasicApi_Quests\QuestUiResult.cs" />
+    <Compile Include="Assets\Scripts\GooglePlayGames_BasicApi_SavedGame\ConflictResolutionStrategy.cs" />
+    <Compile Include="Assets\Scripts\GooglePlayGames_BasicApi_SavedGame\IConflictResolver.cs" />
+    <Compile Include="Assets\Scripts\GooglePlayGames_BasicApi_SavedGame\SavedGameRequestStatus.cs" />
+    <Compile Include="Assets\Scripts\GooglePlayGames_BasicApi_SavedGame\SelectUIStatus.cs" />
+    <Compile Include="Assets\Scripts\GooglePlayGames_Native\AppStateClient.cs" />
+    <Compile Include="Assets\Scripts\GooglePlayGames_Native\UnsupportedAppStateClient.cs" />
+    <Compile Include="Assets\Scripts\GooglePlayGames_Native_PInvoke\FetchResponse.cs" />
+    <Compile Include="Assets\Scripts\GooglePlayGames_Native_PInvoke\FetchScorePageResponse.cs" />
+    <Compile Include="Assets\Scripts\GooglePlayGames_Native_PInvoke\FetchScoreSummaryResponse.cs" />
+    <Compile Include="Assets\Scripts\GoogleServiceConstant.cs" />
+    <Compile Include="Assets\Scripts\GraphUtil.cs" />
+    <Compile Include="Assets\Scripts\GroupButton.cs" />
+    <Compile Include="Assets\Scripts\IPlaceBomb.cs" />
+    <Compile Include="Assets\Scripts\ImageManager.cs" />
+    <Compile Include="Assets\Scripts\InControl\SingletonPrefabAttribute.cs" />
+    <Compile Include="Assets\Scripts\InControl\TouchSpriteShape.cs" />
+    <Compile Include="Assets\Scripts\InControl_TinyJSON\AfterDecode.cs" />
+    <Compile Include="Assets\Scripts\InControl_TinyJSON\DecodeException.cs" />
+    <Compile Include="Assets\Scripts\InControl_TinyJSON\Decoder.cs" />
+    <Compile Include="Assets\Scripts\InControl_TinyJSON\EncodeOptions.cs" />
+    <Compile Include="Assets\Scripts\InControl_TinyJSON\Encoder.cs" />
+    <Compile Include="Assets\Scripts\InControl_TinyJSON\Exclude.cs" />
+    <Compile Include="Assets\Scripts\InControl_TinyJSON\Extensions.cs" />
+    <Compile Include="Assets\Scripts\InControl_TinyJSON\Include.cs" />
+    <Compile Include="Assets\Scripts\InControl_TinyJSON\JSON.cs" />
+    <Compile Include="Assets\Scripts\InControl_TinyJSON\Load.cs" />
+    <Compile Include="Assets\Scripts\InControl_TinyJSON\ProxyArray.cs" />
+    <Compile Include="Assets\Scripts\InControl_TinyJSON\ProxyBoolean.cs" />
+    <Compile Include="Assets\Scripts\InControl_TinyJSON\ProxyNumber.cs" />
+    <Compile Include="Assets\Scripts\InControl_TinyJSON\ProxyObject.cs" />
+    <Compile Include="Assets\Scripts\InControl_TinyJSON\ProxyString.cs" />
+    <Compile Include="Assets\Scripts\InControl_TinyJSON\Skip.cs" />
+    <Compile Include="Assets\Scripts\InControl_TinyJSON\TypeHint.cs" />
+    <Compile Include="Assets\Scripts\InControl_TinyJSON\Variant.cs" />
+    <Compile Include="Assets\Scripts\InappItem.cs" />
+    <Compile Include="Assets\Scripts\InappRequest.cs" />
+    <Compile Include="Assets\Scripts\IngameSettingBox.cs" />
+    <Compile Include="Assets\Scripts\InputHandler.cs" />
+    <Compile Include="Assets\Scripts\InterstitialAdTest.cs" />
+    <Compile Include="Assets\Scripts\InventoryController.cs" />
+    <Compile Include="Assets\Scripts\Inverter.cs" />
+    <Compile Include="Assets\Scripts\InviteBox.cs" />
+    <Compile Include="Assets\Scripts\InviteController.cs" />
+    <Compile Include="Assets\Scripts\InviteItem.cs" />
+    <Compile Include="Assets\Scripts\InviteListRequest.cs" />
+    <Compile Include="Assets\Scripts\InviteListResponse.cs" />
+    <Compile Include="Assets\Scripts\InviteRequest.cs" />
+    <Compile Include="Assets\Scripts\Item.cs" />
+    <Compile Include="Assets\Scripts\ItemRequest.cs" />
+    <Compile Include="Assets\Scripts\ItemType.cs" />
+    <Compile Include="Assets\Scripts\JSONObject.cs" />
+    <Compile Include="Assets\Scripts\JellyBullet.cs" />
+    <Compile Include="Assets\Scripts\JoinRoomRequest.cs" />
+    <Compile Include="Assets\Scripts\JoinRoomType.cs" />
+    <Compile Include="Assets\Scripts\Joker2XConfigUtils.cs" />
+    <Compile Include="Assets\Scripts\Joker2XUtils.cs" />
+    <Compile Include="Assets\Scripts\JokerAvatarContainer.cs" />
+    <Compile Include="Assets\Scripts\JokerConstants.cs" />
+    <Compile Include="Assets\Scripts\JokerEnum.cs" />
+    <Compile Include="Assets\Scripts\JokerItemColumn.cs" />
+    <Compile Include="Assets\Scripts\JokerItemParams.cs" />
+    <Compile Include="Assets\Scripts\JokerLeaveRoomResponse.cs" />
+    <Compile Include="Assets\Scripts\JokerLeaveRoomType.cs" />
+    <Compile Include="Assets\Scripts\JokerLoginRequest.cs" />
+    <Compile Include="Assets\Scripts\JokerLogoutRequest.cs" />
+    <Compile Include="Assets\Scripts\JokerPing.cs" />
+    <Compile Include="Assets\Scripts\JokerRoomVariables.cs" />
+    <Compile Include="Assets\Scripts\JokerSFSErrorCodes.cs" />
+    <Compile Include="Assets\Scripts\JokerTopupParams.cs" />
+    <Compile Include="Assets\Scripts\JokerUserParams.cs" />
+    <Compile Include="Assets\Scripts\JokerUserUtils.cs" />
+    <Compile Include="Assets\Scripts\JokerUserVariables.cs" />
+    <Compile Include="Assets\Scripts\KickRequest.cs" />
+    <Compile Include="Assets\Scripts\Language.cs" />
+    <Compile Include="Assets\Scripts\LanguageRequest.cs" />
+    <Compile Include="Assets\Scripts\Lazer.cs" />
+    <Compile Include="Assets\Scripts\ListUsersParams.cs" />
+    <Compile Include="Assets\Scripts\LoadAndCache.cs" />
+    <Compile Include="Assets\Scripts\LoadingScene.cs" />
+    <Compile Include="Assets\Scripts\LoadingScreenManager.cs" />
+    <Compile Include="Assets\Scripts\LobbyMessageRequest.cs" />
+    <Compile Include="Assets\Scripts\LockedArmouredRocket.cs" />
+    <Compile Include="Assets\Scripts\LogToServerRequest.cs" />
+    <Compile Include="Assets\Scripts\MMOParams.cs" />
+    <Compile Include="Assets\Scripts\MMORoomUtils.cs" />
+    <Compile Include="Assets\Scripts\MagmaBullet.cs" />
+    <Compile Include="Assets\Scripts\MainMenuScene.cs" />
+    <Compile Include="Assets\Scripts\MainMenuSettingBox.cs" />
+    <Compile Include="Assets\Scripts\Map.cs" />
+    <Compile Include="Assets\Scripts\MathUtils.cs" />
+    <Compile Include="Assets\Scripts\MergeFBRequest.cs" />
+    <Compile Include="Assets\Scripts\MessageBox.cs" />
+    <Compile Include="Assets\Scripts\MessageParams.cs" />
+    <Compile Include="Assets\Scripts\MessageResponse.cs" />
+    <Compile Include="Assets\Scripts\Missile.cs" />
+    <Compile Include="Assets\Scripts\MonoPInvokeCallbackAttribute.cs" />
+    <Compile Include="Assets\Scripts\Monster.cs" />
+    <Compile Include="Assets\Scripts\MoveCommand.cs" />
+    <Compile Include="Assets\Scripts\MoveDirection.cs" />
+    <Compile Include="Assets\Scripts\MusicManager.cs" />
+    <Compile Include="Assets\Scripts\MyPathNode.cs" />
+    <Compile Include="Assets\Scripts\NameGenerator.cs" />
+    <Compile Include="Assets\Scripts\NativeAdTest.cs" />
+    <Compile Include="Assets\Scripts\NovaGolem_idle.cs" />
+    <Compile Include="Assets\Scripts\ObjectPool.cs" />
+    <Compile Include="Assets\Scripts\ObjectPoolManager.cs" />
+    <Compile Include="Assets\Scripts\OfflineClockController.cs" />
+    <Compile Include="Assets\Scripts\OfflineForeGround.cs" />
+    <Compile Include="Assets\Scripts\Offline_Config.cs" />
+    <Compile Include="Assets\Scripts\Offline_FreeCoinController.cs" />
+    <Compile Include="Assets\Scripts\Offline_Item.cs" />
+    <Compile Include="Assets\Scripts\Offline_MapSelectItem.cs" />
+    <Compile Include="Assets\Scripts\Offline_SettingUI.cs" />
+    <Compile Include="Assets\Scripts\Offline_ShopController.cs" />
+    <Compile Include="Assets\Scripts\Offline_TopupBox.cs" />
+    <Compile Include="Assets\Scripts\Offline_TopupController.cs" />
+    <Compile Include="Assets\Scripts\Offline_TopupInappItem.cs" />
+    <Compile Include="Assets\Scripts\OnlineAdmob.cs" />
+    <Compile Include="Assets\Scripts\PaginationParams.cs" />
+    <Compile Include="Assets\Scripts\Parallel.cs" />
+    <Compile Include="Assets\Scripts\ParticleController.cs" />
+    <Compile Include="Assets\Scripts\ParticleEvent.cs" />
+    <Compile Include="Assets\Scripts\PathPrefabs.cs" />
+    <Compile Include="Assets\Scripts\PingPongV2Request.cs" />
+    <Compile Include="Assets\Scripts\PingResponse.cs" />
+    <Compile Include="Assets\Scripts\PlaceBombCommand.cs" />
+    <Compile Include="Assets\Scripts\PlayNowRequest.cs" />
+    <Compile Include="Assets\Scripts\PlayNowResponse.cs" />
+    <Compile Include="Assets\Scripts\PlaySoundOnClick.cs" />
+    <Compile Include="Assets\Scripts\PointMatrix.cs" />
+    <Compile Include="Assets\Scripts\ProfileBox.cs" />
+    <Compile Include="Assets\Scripts\PublicMessageRequest.cs" />
+    <Compile Include="Assets\Scripts\PushObjectToFront.cs" />
+    <Compile Include="Assets\Scripts\QuickBuyButton.cs" />
+    <Compile Include="Assets\Scripts\RankingBox.cs" />
+    <Compile Include="Assets\Scripts\RankingItem.cs" />
+    <Compile Include="Assets\Scripts\RankingParams.cs" />
+    <Compile Include="Assets\Scripts\RankingRequest.cs" />
+    <Compile Include="Assets\Scripts\RankingResponse.cs" />
+    <Compile Include="Assets\Scripts\Repeat.cs" />
+    <Compile Include="Assets\Scripts\RequestCmdTags.cs" />
+    <Compile Include="Assets\Scripts\RescaleScreenSize.cs" />
+    <Compile Include="Assets\Scripts\ResourceChecking.cs" />
+    <Compile Include="Assets\Scripts\ResourcesManager.cs" />
+    <Compile Include="Assets\Scripts\ResourcesUltis.cs" />
+    <Compile Include="Assets\Scripts\ResponseCmdTags.cs" />
+    <Compile Include="Assets\Scripts\RoomParams.cs" />
+    <Compile Include="Assets\Scripts\RoomUtils.cs" />
+    <Compile Include="Assets\Scripts\Routine.cs" />
+    <Compile Include="Assets\Scripts\SFSErrorCode.cs" />
+    <Compile Include="Assets\Scripts\SFSLeaveRoomRequest.cs" />
+    <Compile Include="Assets\Scripts\SMSItem.cs" />
+    <Compile Include="Assets\Scripts\SaveGame.cs" />
+    <Compile Include="Assets\Scripts\SaveGameSystem.cs" />
+    <Compile Include="Assets\Scripts\SceneNames.cs" />
+    <Compile Include="Assets\Scripts\ScrollViewCommon.cs" />
+    <Compile Include="Assets\Scripts\ScrollViewController.cs" />
+    <Compile Include="Assets\Scripts\Selector.cs" />
+    <Compile Include="Assets\Scripts\SendChatMsg.cs" />
+    <Compile Include="Assets\Scripts\SequenceNode.cs" />
+    <Compile Include="Assets\Scripts\SettlersEngine\IIndexedObject.cs" />
+    <Compile Include="Assets\Scripts\SettlersEngine\IPathNode_TUserContext_.cs" />
+    <Compile Include="Assets\Scripts\SettlersEngine\PriorityQueue`1 where T.cs" />
+    <Compile Include="Assets\Scripts\SettlersEngine\SpatialAStar_TPathNode, TUserContext_ where TPathNode.cs" />
+    <Compile Include="Assets\Scripts\ShareFacebookRequest.cs" />
+    <Compile Include="Assets\Scripts\ShopController.cs" />
+    <Compile Include="Assets\Scripts\ShopItem.cs" />
+    <Compile Include="Assets\Scripts\ShowTutorial.cs" />
+    <Compile Include="Assets\Scripts\SimpleJSON\JSON.cs" />
+    <Compile Include="Assets\Scripts\SimpleJSON\JSONArray.cs" />
+    <Compile Include="Assets\Scripts\SimpleJSON\JSONBinaryTag.cs" />
+    <Compile Include="Assets\Scripts\SimpleJSON\JSONClass.cs" />
+    <Compile Include="Assets\Scripts\SimpleJSON\JSONData.cs" />
+    <Compile Include="Assets\Scripts\SimpleJSON\JSONLazyCreator.cs" />
+    <Compile Include="Assets\Scripts\SimpleJSON\JSONNode.cs" />
+    <Compile Include="Assets\Scripts\SlotCoin.cs" />
+    <Compile Include="Assets\Scripts\SmartFoxConnection.cs" />
+    <Compile Include="Assets\Scripts\Special1.cs" />
+    <Compile Include="Assets\Scripts\SpecialAction.cs" />
+    <Compile Include="Assets\Scripts\SpriteCollection.cs" />
+    <Compile Include="Assets\Scripts\SpritePool.cs" />
+    <Compile Include="Assets\Scripts\SqliteDatabase.cs" />
+    <Compile Include="Assets\Scripts\SqliteException.cs" />
+    <Compile Include="Assets\Scripts\StaticGameObject.cs" />
+    <Compile Include="Assets\Scripts\StaticPrefab.cs" />
+    <Compile Include="Assets\Scripts\StoreKey.cs" />
+    <Compile Include="Assets\Scripts\StringUtils.cs" />
+    <Compile Include="Assets\Scripts\SubAvatarController.cs" />
+    <Compile Include="Assets\Scripts\Succeeder.cs" />
+    <Compile Include="Assets\Scripts\SystemMessageActionType.cs" />
+    <Compile Include="Assets\Scripts\SystemMessageType.cs" />
+    <Compile Include="Assets\Scripts\TagConstant.cs" />
+    <Compile Include="Assets\Scripts\TextOutline.cs" />
+    <Compile Include="Assets\Scripts\TextureCutter.cs" />
+    <Compile Include="Assets\Scripts\ThornBullet.cs" />
+    <Compile Include="Assets\Scripts\Tile.cs" />
+    <Compile Include="Assets\Scripts\TiledType.cs" />
+    <Compile Include="Assets\Scripts\TimeConstant.cs" />
+    <Compile Include="Assets\Scripts\TimeLimit.cs" />
+    <Compile Include="Assets\Scripts\TooltipBox.cs" />
+    <Compile Include="Assets\Scripts\TopupBox.cs" />
+    <Compile Include="Assets\Scripts\TopupCardInfo.cs" />
+    <Compile Include="Assets\Scripts\TopupCardItem.cs" />
+    <Compile Include="Assets\Scripts\TopupController.cs" />
+    <Compile Include="Assets\Scripts\TopupInappItem.cs" />
+    <Compile Include="Assets\Scripts\TopupParams.cs" />
+    <Compile Include="Assets\Scripts\TopupResponse.cs" />
+    <Compile Include="Assets\Scripts\TopupSMSItem.cs" />
+    <Compile Include="Assets\Scripts\TopupSubmitForm.cs" />
+    <Compile Include="Assets\Scripts\TopupTask.cs" />
+    <Compile Include="Assets\Scripts\ToxicBomb.cs" />
+    <Compile Include="Assets\Scripts\TurnToWall.cs" />
+    <Compile Include="Assets\Scripts\UISortBehavior.cs" />
+    <Compile Include="Assets\Scripts\UpdateUserInfoRequest.cs" />
+    <Compile Include="Assets\Scripts\UserItemList.cs" />
+    <Compile Include="Assets\Scripts\UserItemTask.cs" />
+    <Compile Include="Assets\Scripts\UserItemType.cs" />
+    <Compile Include="Assets\Scripts\UserListRequest.cs" />
+    <Compile Include="Assets\Scripts\UserListResponse.cs" />
+    <Compile Include="Assets\Scripts\UserReadyRequest.cs" />
+    <Compile Include="Assets\Scripts\UserTask.cs" />
+    <Compile Include="Assets\Scripts\VertBend.cs" />
+    <Compile Include="Assets\Scripts\Wait.cs" />
+    <Compile Include="Assets\Scripts\WaitingBox.cs" />
+    <Compile Include="Assets\Scripts\Wander.cs" />
+    <Compile Include="Assets\Scripts\WaveBullet.cs" />
+    <Compile Include="Assets\Scripts\WhaleBullet.cs" />
+    <Compile Include="Assets\Scripts\ZoomOnSnap.cs" />
+    <Compile Include="Assets\Scripts\eCloudFlowBehavior.cs" />
+    <Compile Include="Assets\Scripts\eMoveMethod.cs" />
+    <Compile Include="Assets\Scripts\scrollviewItem.cs" />
+    <Compile Include="Assets\Scripts\void FacebookActionFinishCallabck(ActionFacebook action, ActionState statae)%3b.cs" />
+    <Compile Include="Assets\unity-ui-extensions-5.3\Scripts\Accordion\Accordion.cs" />
+    <Compile Include="Assets\unity-ui-extensions-5.3\Scripts\Accordion\AccordionElement.cs" />
+    <Compile Include="Assets\unity-ui-extensions-5.3\Scripts\Accordion\Tweening\FloatTween.cs" />
+    <Compile Include="Assets\unity-ui-extensions-5.3\Scripts\Accordion\Tweening\ITweenValue.cs" />
+    <Compile Include="Assets\unity-ui-extensions-5.3\Scripts\Accordion\Tweening\TweenRunner.cs" />
+    <Compile Include="Assets\unity-ui-extensions-5.3\Scripts\ComboBox\AutoCompleteComboBox.cs" />
+    <Compile Include="Assets\unity-ui-extensions-5.3\Scripts\ComboBox\ComboBox.cs" />
+    <Compile Include="Assets\unity-ui-extensions-5.3\Scripts\ComboBox\DropDownList.cs" />
+    <Compile Include="Assets\unity-ui-extensions-5.3\Scripts\ComboBox\DropDownListButton.cs" />
+    <Compile Include="Assets\unity-ui-extensions-5.3\Scripts\ComboBox\DropDownListItem.cs" />
+    <Compile Include="Assets\unity-ui-extensions-5.3\Scripts\Effects\BestFitOutline.cs" />
+    <Compile Include="Assets\unity-ui-extensions-5.3\Scripts\Effects\CurvedText.cs" />
+    <Compile Include="Assets\unity-ui-extensions-5.3\Scripts\Effects\CylinderText.cs" />
+    <Compile Include="Assets\unity-ui-extensions-5.3\Scripts\Effects\Gradient.cs" />
+    <Compile Include="Assets\unity-ui-extensions-5.3\Scripts\Effects\ImageExtended.cs" />
+    <Compile Include="Assets\unity-ui-extensions-5.3\Scripts\Effects\LetterSpacing.cs" />
+    <Compile Include="Assets\unity-ui-extensions-5.3\Scripts\Effects\NicerOutline.cs" />
+    <Compile Include="Assets\unity-ui-extensions-5.3\Scripts\Effects\RaycastMask.cs" />
+    <Compile Include="Assets\unity-ui-extensions-5.3\Scripts\Effects\Shaders\UIAdditiveEffect.cs" />
+    <Compile Include="Assets\unity-ui-extensions-5.3\Scripts\Effects\Shaders\UIImageCrop.cs" />
+    <Compile Include="Assets\unity-ui-extensions-5.3\Scripts\Effects\Shaders\UILinearDodgeEffect.cs" />
+    <Compile Include="Assets\unity-ui-extensions-5.3\Scripts\Effects\Shaders\UIMultiplyEffect.cs" />
+    <Compile Include="Assets\unity-ui-extensions-5.3\Scripts\Effects\Shaders\UIScreenEffect.cs" />
+    <Compile Include="Assets\unity-ui-extensions-5.3\Scripts\Effects\Shaders\UISoftAdditiveEffect.cs" />
+    <Compile Include="Assets\unity-ui-extensions-5.3\Scripts\Effects\ShineEffect.cs" />
+    <Compile Include="Assets\unity-ui-extensions-5.3\Scripts\Effects\ShineEffector.cs" />
+    <Compile Include="Assets\unity-ui-extensions-5.3\Scripts\Effects\SoftMaskScript.cs" />
+    <Compile Include="Assets\unity-ui-extensions-5.3\Scripts\Effects\UIFlippable.cs" />
+    <Compile Include="Assets\unity-ui-extensions-5.3\Scripts\Effects\UIParticleSystem.cs" />
+    <Compile Include="Assets\unity-ui-extensions-5.3\Scripts\HSVPicker\ColorPickerTester.cs" />
+    <Compile Include="Assets\unity-ui-extensions-5.3\Scripts\HSVPicker\HSVPicker.cs" />
+    <Compile Include="Assets\unity-ui-extensions-5.3\Scripts\HSVPicker\HSVSliderEvent.cs" />
+    <Compile Include="Assets\unity-ui-extensions-5.3\Scripts\HSVPicker\HSVUtil.cs" />
+    <Compile Include="Assets\unity-ui-extensions-5.3\Scripts\HSVPicker\HexRGB.cs" />
+    <Compile Include="Assets\unity-ui-extensions-5.3\Scripts\HSVPicker\HsvBoxSelector.cs" />
+    <Compile Include="Assets\unity-ui-extensions-5.3\Scripts\HSVPicker\HsvSliderPicker.cs" />
+    <Compile Include="Assets\unity-ui-extensions-5.3\Scripts\InputModules\AimerInputModule.cs" />
+    <Compile Include="Assets\unity-ui-extensions-5.3\Scripts\InputModules\GamePadInputModule.cs" />
+    <Compile Include="Assets\unity-ui-extensions-5.3\Scripts\Layout\CurvedLayout.cs" />
+    <Compile Include="Assets\unity-ui-extensions-5.3\Scripts\Layout\FlowLayoutGroup.cs" />
+    <Compile Include="Assets\unity-ui-extensions-5.3\Scripts\Layout\HorizontalScrollSnap.cs" />
+    <Compile Include="Assets\unity-ui-extensions-5.3\Scripts\Layout\RadialLayout.cs" />
+    <Compile Include="Assets\unity-ui-extensions-5.3\Scripts\Layout\ScrollSnap.cs" />
+    <Compile Include="Assets\unity-ui-extensions-5.3\Scripts\Layout\TileSizeFitter.cs" />
+    <Compile Include="Assets\unity-ui-extensions-5.3\Scripts\Layout\UIVerticalScroller.cs" />
+    <Compile Include="Assets\unity-ui-extensions-5.3\Scripts\Layout\UIVerticalScrollerDemo\Scripts\ScrollingCalendar.cs" />
+    <Compile Include="Assets\unity-ui-extensions-5.3\Scripts\Layout\VerticalScrollSnap.cs" />
+    <Compile Include="Assets\unity-ui-extensions-5.3\Scripts\Primitives\DiamondGraph.cs" />
+    <Compile Include="Assets\unity-ui-extensions-5.3\Scripts\Primitives\UICircle.cs" />
+    <Compile Include="Assets\unity-ui-extensions-5.3\Scripts\Primitives\UICornerCut.cs" />
+    <Compile Include="Assets\unity-ui-extensions-5.3\Scripts\Primitives\UILineRenderer.cs" />
+    <Compile Include="Assets\unity-ui-extensions-5.3\Scripts\Primitives\UILineTextureRenderer.cs" />
+    <Compile Include="Assets\unity-ui-extensions-5.3\Scripts\Primitives\UIMesh.cs" />
+    <Compile Include="Assets\unity-ui-extensions-5.3\Scripts\Primitives\UIPolygon.cs" />
+    <Compile Include="Assets\unity-ui-extensions-5.3\Scripts\Primitives\UIPrimitiveBase.cs" />
+    <Compile Include="Assets\unity-ui-extensions-5.3\Scripts\ReorderableList\ReorderableList.cs" />
+    <Compile Include="Assets\unity-ui-extensions-5.3\Scripts\ReorderableList\ReorderableListContent.cs" />
+    <Compile Include="Assets\unity-ui-extensions-5.3\Scripts\ReorderableList\ReorderableListDebug.cs" />
+    <Compile Include="Assets\unity-ui-extensions-5.3\Scripts\ReorderableList\ReorderableListElement.cs" />
+    <Compile Include="Assets\unity-ui-extensions-5.3\Scripts\RescalingPanels\RescaleDragPanel.cs" />
+    <Compile Include="Assets\unity-ui-extensions-5.3\Scripts\RescalingPanels\RescalePanel.cs" />
+    <Compile Include="Assets\unity-ui-extensions-5.3\Scripts\RescalingPanels\ResizePanel.cs" />
+    <Compile Include="Assets\unity-ui-extensions-5.3\Scripts\SelectionBox\ExampleSelectable.cs" />
+    <Compile Include="Assets\unity-ui-extensions-5.3\Scripts\SelectionBox\IBoxSelectable.cs" />
+    <Compile Include="Assets\unity-ui-extensions-5.3\Scripts\SelectionBox\SelectionBox.cs" />
+    <Compile Include="Assets\unity-ui-extensions-5.3\Scripts\TabNavigation.cs" />
+    <Compile Include="Assets\unity-ui-extensions-5.3\Scripts\ToolTips\BoundTooltip\BoundTooltipItem.cs" />
+    <Compile Include="Assets\unity-ui-extensions-5.3\Scripts\ToolTips\BoundTooltip\BoundTooltipTrigger.cs" />
+    <Compile Include="Assets\unity-ui-extensions-5.3\Scripts\ToolTips\HoverTooltip.cs" />
+    <Compile Include="Assets\unity-ui-extensions-5.3\Scripts\ToolTips\ToolTip.cs" />
+    <Compile Include="Assets\unity-ui-extensions-5.3\Scripts\UIWindowBase.cs" />
+    <Compile Include="Assets\unity-ui-extensions-5.3\Scripts\Utilities\BezierPath.cs" />
+    <Compile Include="Assets\unity-ui-extensions-5.3\Scripts\Utilities\CLZF2.cs" />
+    <Compile Include="Assets\unity-ui-extensions-5.3\Scripts\Utilities\DragCorrector.cs" />
+    <Compile Include="Assets\unity-ui-extensions-5.3\Scripts\Utilities\ExtensionsToggle.cs" />
+    <Compile Include="Assets\unity-ui-extensions-5.3\Scripts\Utilities\ExtensionsToggleGroup.cs" />
+    <Compile Include="Assets\unity-ui-extensions-5.3\Scripts\Utilities\InputFieldEnterSubmit.cs" />
+    <Compile Include="Assets\unity-ui-extensions-5.3\Scripts\Utilities\InputFocus.cs" />
+    <Compile Include="Assets\unity-ui-extensions-5.3\Scripts\Utilities\PPIViewer.cs" />
+    <Compile Include="Assets\unity-ui-extensions-5.3\Scripts\Utilities\ReturnKeyTriggersButton.cs" />
+    <Compile Include="Assets\unity-ui-extensions-5.3\Scripts\Utilities\ScrollConflictManager.cs" />
+    <Compile Include="Assets\unity-ui-extensions-5.3\Scripts\Utilities\ScrollRectEx.cs" />
+    <Compile Include="Assets\unity-ui-extensions-5.3\Scripts\Utilities\ScrollRectExtensions.cs" />
+    <Compile Include="Assets\unity-ui-extensions-5.3\Scripts\Utilities\ScrollRectLinker.cs" />
+    <Compile Include="Assets\unity-ui-extensions-5.3\Scripts\Utilities\ScrollRectTweener.cs" />
+    <Compile Include="Assets\unity-ui-extensions-5.3\Scripts\Utilities\Serialization\Attributes\DontSaveField.cs" />
+    <Compile Include="Assets\unity-ui-extensions-5.3\Scripts\Utilities\Serialization\ExampleScriptsAndClasses\TestClass.cs" />
+    <Compile Include="Assets\unity-ui-extensions-5.3\Scripts\Utilities\Serialization\ExampleScriptsAndClasses\TestScript.cs" />
+    <Compile Include="Assets\unity-ui-extensions-5.3\Scripts\Utilities\Serialization\Non-Mono Classes\ObjectComponent.cs" />
+    <Compile Include="Assets\unity-ui-extensions-5.3\Scripts\Utilities\Serialization\Non-Mono Classes\SceneData.cs" />
+    <Compile Include="Assets\unity-ui-extensions-5.3\Scripts\Utilities\Serialization\Non-Mono Classes\SceneObject.cs" />
+    <Compile Include="Assets\unity-ui-extensions-5.3\Scripts\Utilities\Serialization\ObjectIdentifier.cs" />
+    <Compile Include="Assets\unity-ui-extensions-5.3\Scripts\Utilities\Serialization\SaveLoad.cs" />
+    <Compile Include="Assets\unity-ui-extensions-5.3\Scripts\Utilities\Serialization\SaveLoadMenu.cs" />
+    <Compile Include="Assets\unity-ui-extensions-5.3\Scripts\Utilities\Serialization\Surrogates\ColorSurrogate.cs" />
+    <Compile Include="Assets\unity-ui-extensions-5.3\Scripts\Utilities\Serialization\Surrogates\GameObjectSurrogate.cs" />
+    <Compile Include="Assets\unity-ui-extensions-5.3\Scripts\Utilities\Serialization\Surrogates\QuaternionSurrogate.cs" />
+    <Compile Include="Assets\unity-ui-extensions-5.3\Scripts\Utilities\Serialization\Surrogates\Texture2DSurrogate.cs" />
+    <Compile Include="Assets\unity-ui-extensions-5.3\Scripts\Utilities\Serialization\Surrogates\TransformSurrogate.cs" />
+    <Compile Include="Assets\unity-ui-extensions-5.3\Scripts\Utilities\Serialization\Surrogates\Vector2Surrogate.cs" />
+    <Compile Include="Assets\unity-ui-extensions-5.3\Scripts\Utilities\Serialization\Surrogates\Vector3Surrogate.cs" />
+    <Compile Include="Assets\unity-ui-extensions-5.3\Scripts\Utilities\Serialization\Surrogates\Vector4Surrogate.cs" />
+    <Compile Include="Assets\unity-ui-extensions-5.3\Scripts\Utilities\Serialization\Utilities\TypeSystem.cs" />
+    <Compile Include="Assets\unity-ui-extensions-5.3\Scripts\Utilities\SetPropertyUtility.cs" />
+    <Compile Include="Assets\unity-ui-extensions-5.3\Scripts\Utilities\TestCompression.cs" />
+    <Compile Include="Assets\unity-ui-extensions-5.3\Scripts\Utilities\UIScrollToSelection.cs" />
+    <Compile Include="Assets\unity-ui-extensions-5.3\Scripts\Utilities\UIScrollToSelectionXY.cs" />
+    <Compile Include="Assets\unity-ui-extensions-5.3\Scripts\Utilities\UISelectableExtension.cs" />
+    <Compile Include="Assets\unity-ui-extensions-5.3\Scripts\Utilities\switchToRectTransform.cs" />
+    <Compile Include="Assets\unity-ui-extensions-5.3\Scripts\VR Extensions\VRCursor.cs" />
+    <Compile Include="Assets\unity-ui-extensions-5.3\Scripts\VR Extensions\VRInputModule.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Resources\levels\bomber\frozen\lvl2-5.txt" />
+    <None Include="Assets\Resources\levels\bomber\extra\lvl9-12.txt" />
+    <None Include="Assets\Resources\levels\bomber\street\lvl5-10.txt" />
+    <None Include="Assets\Resources\levels\bomber\desert\lvl3-5.txt" />
+    <None Include="Assets\Resources\levels\bomber\extra\lvl9-1.txt" />
+    <None Include="Assets\Resources\levels\bomber\magma\lvl6-2.txt" />
+    <None Include="Assets\Resources\tapjoyresources.bundle\WebViewJavascriptBridge.js.txt" />
+    <None Include="Assets\Resources\levels\bomber\street\lvl5-2.txt" />
+    <None Include="Assets\NGUI-T5\Resources\Shaders\Unlit - Premultiplied Colored (TextureClip).shader" />
+    <None Include="Assets\Resources\levels\bomber\desert\lvl3-8.txt" />
+    <None Include="Assets\NGUI-T5\Resources\Shaders\Unlit - Transparent Masked 1.shader" />
+    <None Include="Assets\Shaders\CFXM_MobileParticleAdd_Alpha8.shader" />
+    <None Include="Assets\NGUI-T5\Resources\Shaders\Unlit - Text 2.shader" />
+    <None Include="Assets\Resources\Hidden\Unlit\Unlit - Transparent Masked 1.shader" />
+    <None Include="Assets\unity-ui-extensions-5.3\Shaders\UIMultiply.shader" />
+    <None Include="Assets\Resources\levels\bomber\forest\lvl1-3.txt" />
+    <None Include="Assets\Resources\levels\bomber\extra\lvl9-10.txt" />
+    <None Include="Assets\Resources\levels\bomber\magma\lvl6-15.txt" />
+    <None Include="Assets\Resources\levels\bomber\swamp\lvl4-6.txt" />
+    <None Include="Assets\Shaders\Particle AddSmooth.shader" />
+    <None Include="Assets\Resources\levels\bomber\magma\lvl6-12.txt" />
+    <None Include="Assets\NGUI-T5\Resources\Shaders\Unlit - Transparent Packed 3.shader" />
+    <None Include="Assets\Resources\Unlit\Unlit - Premultiplied Colored.shader" />
+    <None Include="Assets\Resources\Unlit\Unlit - Transparent Colored (Packed) (TextureClip).shader" />
+    <None Include="Assets\Resources\levels\bomber\swamp\lvl4-9.txt" />
+    <None Include="Assets\Resources\levels\bomber\swamp\lvl4-8.txt" />
+    <None Include="Assets\Resources\levels\bomber\magma\lvl6-10.txt" />
+    <None Include="Assets\Resources\levels\bomber\desert\lvl3-3.txt" />
+    <None Include="Assets\Resources\levels\bomber\swamp\lvl4-5.txt" />
+    <None Include="Assets\Resources\levels\bomber\street\lvl5-8.txt" />
+    <None Include="Assets\NGUI-T5\Resources\Shaders\Unlit - Text 1.shader" />
+    <None Include="Assets\Resources\levels\bomber\desert\lvl3-4.txt" />
+    <None Include="Assets\unity-ui-extensions-5.3\Shaders\UIParticleHidden.shader" />
+    <None Include="Assets\Resources\levels\bomber\street\lvl5-11.txt" />
+    <None Include="Assets\NGUI-T5\Resources\Shaders\Unlit - Premultiplied Colored 2.shader" />
+    <None Include="Assets\Shaders\Particle Add.shader" />
+    <None Include="Assets\Resources\levels\bomber\magma\lvl6-7.txt" />
+    <None Include="Assets\Resources\levels\bomber\magma\lvl6-13.txt" />
+    <None Include="Assets\Resources\levels\bomber\desert\lvl3-7.txt" />
+    <None Include="Assets\Resources\tapjoyresources.bundle\revision.txt" />
+    <None Include="Assets\Resources\Unlit\Unlit - Transparent Masked.shader" />
+    <None Include="Assets\NGUI-T5\Resources\Shaders\Unlit - Text 3.shader" />
+    <None Include="Assets\NGUI-T5\Resources\Shaders\Unlit - Text (TextureClip).shader" />
+    <None Include="Assets\Resources\levels\bomber\magma\lvl6-5.txt" />
+    <None Include="Assets\NGUI-T5\Resources\Shaders\Unlit - Transparent Packed 1.shader" />
+    <None Include="Assets\Resources\levels\bomber\frozen\lvl2-2.txt" />
+    <None Include="Assets\Resources\levels\bomber\forest\lvl1-1.txt" />
+    <None Include="Assets\Resources\levels\bomber\street\lvl5-14.txt" />
+    <None Include="Assets\Resources\levels\resource.txt" />
+    <None Include="Assets\Shaders\Mobile-Particle-Alpha.shader" />
+    <None Include="Assets\Resources\Hidden\Unlit\Unlit - Text 1.shader" />
+    <None Include="Assets\Shaders\Mobile-Particle-Add.shader" />
+    <None Include="Assets\Resources\Hidden\Unlit\Unlit - Transparent Colored 1.shader" />
+    <None Include="Assets\Resources\levels\bomber\street\lvl5-4.txt" />
+    <None Include="Assets\Resources\levels\bomber\swamp\lvl4-3.txt" />
+    <None Include="Assets\unity-ui-extensions-5.3\Shaders\UISoftAdditive.shader" />
+    <None Include="Assets\Resources\levels\bomber\frozen\lvl2-6.txt" />
+    <None Include="Assets\Resources\Unlit\Unlit - Transparent Colored.shader" />
+    <None Include="Assets\Resources\levels\bomber\extra\lvl9-8.txt" />
+    <None Include="Assets\NGUI-T5\Resources\Shaders\Unlit - Premultiplied Colored.shader" />
+    <None Include="Assets\Resources\Hidden\Unlit\Unlit - Text 2.shader" />
+    <None Include="Assets\Resources\Hidden\Unlit\Unlit - Transparent Packed 1.shader" />
+    <None Include="Assets\Resources\levels\bomber\street\lvl5-13.txt" />
+    <None Include="Assets\unity-ui-extensions-5.3\Shaders\SoftMaskShaderText.shader" />
+    <None Include="Assets\Resources\Localization.txt" />
+    <None Include="Assets\Resources\levels\bomber\frozen\lvl2-9.txt" />
+    <None Include="Assets\unity-ui-extensions-5.3\Scripts\Utilities\Serialization\Surrogates\SurrogatesReadMe.txt" />
+    <None Include="Assets\Resources\levels\bomber\desert\lvl3-9.txt" />
+    <None Include="Assets\Resources\levels\bomber\frozen\lvl2-3.txt" />
+    <None Include="Assets\Resources\Hidden\Unlit\Unlit - Transparent Colored 2.shader" />
+    <None Include="Assets\Resources\Hidden\Unlit\Unlit - Transparent Packed 2.shader" />
+    <None Include="Assets\Resources\Hidden\Unlit\Unlit - Transparent Packed 3.shader" />
+    <None Include="Assets\unity-ui-extensions-5.3\Shaders\UIAdditive.shader" />
+    <None Include="Assets\NGUI-T5\Resources\Shaders\Unlit - Transparent Colored 3.shader" />
+    <None Include="Assets\Resources\levels\bomber\swamp\lvl4-4.txt" />
+    <None Include="Assets\Resources\levels\bomber\extra\lvl9-5.txt" />
+    <None Include="Assets\Resources\levels\bomber\street\lvl5-5.txt" />
+    <None Include="Assets\Resources\levels\bomber\extra\lvl9-11.txt" />
+    <None Include="Assets\Resources\tapjoyresources.bundle\MRAID_Standard_HTML_Stub.xml" />
+    <None Include="Assets\Resources\levels\bomber\frozen\lvl2-4.txt" />
+    <None Include="Assets\Resources\inapp.txt" />
+    <None Include="Assets\Resources\levels\bomber\extra\lvl9-3.txt" />
+    <None Include="Assets\Resources\levels\bomber\street\lvl5-12.txt" />
+    <None Include="Assets\Resources\levels\bomber\street\lvl5-15.txt" />
+    <None Include="Assets\Resources\levels\bomber\magma\lvl6-4.txt" />
+    <None Include="Assets\Resources\Hidden\Unlit\Unlit - Premultiplied Colored 3.shader" />
+    <None Include="Assets\Resources\levels\bomber\street\lvl5-6.txt" />
+    <None Include="Assets\Resources\levels\bomber\swamp\lvl4-7.txt" />
+    <None Include="Assets\Resources\levels\bomber\extra\lvl9-13.txt" />
+    <None Include="Assets\Resources\levels\bomber\street\lvl5-9.txt" />
+    <None Include="Assets\Resources\levels\bomber\street\lvl5-3.txt" />
+    <None Include="Assets\Resources\levels\bomber\magma\lvl6-9.txt" />
+    <None Include="Assets\Resources\levels\bomber\magma\lvl6-1.txt" />
+    <None Include="Assets\Shaders\Particle Alpha Blend.shader" />
+    <None Include="Assets\Resources\levels\bomber\swamp\lvl4-2.txt" />
+    <None Include="Assets\Resources\levels\bomber\magma\lvl6-6.txt" />
+    <None Include="Assets\Resources\levels\bomber\frozen\lvl2-7.txt" />
+    <None Include="Assets\NGUI-T5\Resources\Shaders\Unlit - Transparent Colored 1.shader" />
+    <None Include="Assets\Resources\levels\bomber\street\lvl5-1.txt" />
+    <None Include="Assets\Resources\levels\bomber\forest\lvl1-4.txt" />
+    <None Include="Assets\NGUI-T5\Resources\Shaders\Unlit - Premultiplied Colored 1.shader" />
+    <None Include="Assets\Resources\Hidden\Unlit\Unlit - Premultiplied Colored 1.shader" />
+    <None Include="Assets\Resources\levels\bomber\street\lvl5-7.txt" />
+    <None Include="Assets\NGUI-T5\Resources\Shaders\Unlit - Transparent Packed.shader" />
+    <None Include="Assets\Resources\levels\bomber\forest\lvl1-2.txt" />
+    <None Include="Assets\Resources\levels\bomber\swamp\lvl4-1.txt" />
+    <None Include="Assets\Resources\levels\bomber\magma\lvl6-14.txt" />
+    <None Include="Assets\NGUI-T5\Resources\Shaders\Unlit - Transparent Colored (TextureClip).shader" />
+    <None Include="Assets\Resources\Hidden\Unlit\Unlit - Transparent Colored (TextureClip).shader" />
+    <None Include="Assets\NGUI-T5\Resources\Shaders\Unlit - Transparent Masked.shader" />
+    <None Include="Assets\NGUI-T5\Resources\Shaders\Unlit - Premultiplied Colored 3.shader" />
+    <None Include="Assets\Resources\levels\bomber\frozen\lvl2-1.txt" />
+    <None Include="Assets\Resources\Hidden\Unlit\Unlit - Transparent Colored 3.shader" />
+    <None Include="Assets\Resources\Hidden\Unlit\Unlit - Premultiplied Colored 2.shader" />
+    <None Include="Assets\Resources\levels\bomber\desert\lvl3-6.txt" />
+    <None Include="Assets\Resources\Hidden\Unlit\Unlit - Text 3.shader" />
+    <None Include="Assets\Resources\levels\bomber\extra\lvl9-2.txt" />
+    <None Include="Assets\Resources\levels\bomber\magma\lvl6-3.txt" />
+    <None Include="Assets\Resources\levels\bomber\extra\lvl9-9.txt" />
+    <None Include="Assets\Resources\Hidden\Unlit\Unlit - Text (TextureClip).shader" />
+    <None Include="Assets\Resources\levels\bomber\magma\lvl6-11.txt" />
+    <None Include="Assets\Resources\Hidden\Unlit\Unlit - Transparent Masked 2.shader" />
+    <None Include="Assets\NGUI-T5\Resources\Shaders\Unlit - Transparent Colored.shader" />
+    <None Include="Assets\Resources\Unlit\Unlit - Transparent Packed.shader" />
+    <None Include="Assets\unity-ui-extensions-5.3\Shaders\UIImageCrop.shader" />
+    <None Include="Assets\NGUI-T5\Resources\Shaders\Unlit - Transparent Colored (Packed) (TextureClip).shader" />
+    <None Include="Assets\unity-ui-extensions-5.3\Shaders\UILinearDodge.shader" />
+    <None Include="Assets\unity-ui-extensions-5.3\Shaders\SoftMaskShader.shader" />
+    <None Include="Assets\Resources\levels\bomber\desert\lvl3-1.txt" />
+    <None Include="Assets\Resources\JSSDKBindings.txt" />
+    <None Include="Assets\Resources\levels\bomber\frozen\lvl2-8.txt" />
+    <None Include="Assets\Resources\levels\bomber\extra\lvl9-4.txt" />
+    <None Include="Assets\unity-ui-extensions-5.3\Shaders\UIScreen.shader" />
+    <None Include="Assets\Resources\Hidden\Unlit\Unlit - Transparent Masked 3.shader" />
+    <None Include="Assets\NGUI-T5\Resources\Shaders\Unlit - Transparent Packed 2.shader" />
+    <None Include="Assets\Resources\levels\bomber\extra\lvl9-6.txt" />
+    <None Include="Assets\Resources\levels\bomber\extra\lvl9-7.txt" />
+    <None Include="Assets\NGUI-T5\Resources\Shaders\Unlit - Text.shader" />
+    <None Include="Assets\Resources\tapjoyresources.bundle\MRAID_Standard_JS_Stub.xml" />
+    <None Include="Assets\Shaders\Particle Premultiply Blend.shader" />
+    <None Include="Assets\NGUI-T5\Resources\Shaders\Unlit - Transparent Masked 3.shader" />
+    <None Include="Assets\Resources\Unlit\Unlit - Text.shader" />
+    <None Include="Assets\NGUI-T5\Resources\Shaders\Unlit - Transparent Masked 2.shader" />
+    <None Include="Assets\NGUI-T5\Resources\Shaders\Unlit - Transparent Colored 2.shader" />
+    <None Include="Assets\Resources\tapjoyresources.bundle\mraid.js.txt" />
+    <None Include="Assets\Resources\levels\bomber\desert\lvl3-2.txt" />
+    <None Include="Assets\Resources\levels\bomber\magma\lvl6-8.txt" />
+    <None Include="Assets\Resources\Hidden\Unlit\Unlit - Premultiplied Colored (TextureClip).shader" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="UnityEngine">
+      <HintPath>G:\Unity\Hub\Editor\2019.4.40f1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AIModule">
+      <HintPath>G:\Unity\Hub\Editor\2019.4.40f1\Editor\Data\Managed\UnityEngine\UnityEngine.AIModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ARModule">
+      <HintPath>G:\Unity\Hub\Editor\2019.4.40f1\Editor\Data\Managed\UnityEngine\UnityEngine.ARModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AccessibilityModule">
+      <HintPath>G:\Unity\Hub\Editor\2019.4.40f1\Editor\Data\Managed\UnityEngine\UnityEngine.AccessibilityModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AndroidJNIModule">
+      <HintPath>G:\Unity\Hub\Editor\2019.4.40f1\Editor\Data\Managed\UnityEngine\UnityEngine.AndroidJNIModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AnimationModule">
+      <HintPath>G:\Unity\Hub\Editor\2019.4.40f1\Editor\Data\Managed\UnityEngine\UnityEngine.AnimationModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AssetBundleModule">
+      <HintPath>G:\Unity\Hub\Editor\2019.4.40f1\Editor\Data\Managed\UnityEngine\UnityEngine.AssetBundleModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AudioModule">
+      <HintPath>G:\Unity\Hub\Editor\2019.4.40f1\Editor\Data\Managed\UnityEngine\UnityEngine.AudioModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ClothModule">
+      <HintPath>G:\Unity\Hub\Editor\2019.4.40f1\Editor\Data\Managed\UnityEngine\UnityEngine.ClothModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.CoreModule">
+      <HintPath>G:\Unity\Hub\Editor\2019.4.40f1\Editor\Data\Managed\UnityEngine\UnityEngine.CoreModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.CrashReportingModule">
+      <HintPath>G:\Unity\Hub\Editor\2019.4.40f1\Editor\Data\Managed\UnityEngine\UnityEngine.CrashReportingModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.DSPGraphModule">
+      <HintPath>G:\Unity\Hub\Editor\2019.4.40f1\Editor\Data\Managed\UnityEngine\UnityEngine.DSPGraphModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.DirectorModule">
+      <HintPath>G:\Unity\Hub\Editor\2019.4.40f1\Editor\Data\Managed\UnityEngine\UnityEngine.DirectorModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.GameCenterModule">
+      <HintPath>G:\Unity\Hub\Editor\2019.4.40f1\Editor\Data\Managed\UnityEngine\UnityEngine.GameCenterModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.GridModule">
+      <HintPath>G:\Unity\Hub\Editor\2019.4.40f1\Editor\Data\Managed\UnityEngine\UnityEngine.GridModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.HotReloadModule">
+      <HintPath>G:\Unity\Hub\Editor\2019.4.40f1\Editor\Data\Managed\UnityEngine\UnityEngine.HotReloadModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.IMGUIModule">
+      <HintPath>G:\Unity\Hub\Editor\2019.4.40f1\Editor\Data\Managed\UnityEngine\UnityEngine.IMGUIModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ImageConversionModule">
+      <HintPath>G:\Unity\Hub\Editor\2019.4.40f1\Editor\Data\Managed\UnityEngine\UnityEngine.ImageConversionModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.InputModule">
+      <HintPath>G:\Unity\Hub\Editor\2019.4.40f1\Editor\Data\Managed\UnityEngine\UnityEngine.InputModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.InputLegacyModule">
+      <HintPath>G:\Unity\Hub\Editor\2019.4.40f1\Editor\Data\Managed\UnityEngine\UnityEngine.InputLegacyModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.JSONSerializeModule">
+      <HintPath>G:\Unity\Hub\Editor\2019.4.40f1\Editor\Data\Managed\UnityEngine\UnityEngine.JSONSerializeModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.LocalizationModule">
+      <HintPath>G:\Unity\Hub\Editor\2019.4.40f1\Editor\Data\Managed\UnityEngine\UnityEngine.LocalizationModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ParticleSystemModule">
+      <HintPath>G:\Unity\Hub\Editor\2019.4.40f1\Editor\Data\Managed\UnityEngine\UnityEngine.ParticleSystemModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.PerformanceReportingModule">
+      <HintPath>G:\Unity\Hub\Editor\2019.4.40f1\Editor\Data\Managed\UnityEngine\UnityEngine.PerformanceReportingModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.PhysicsModule">
+      <HintPath>G:\Unity\Hub\Editor\2019.4.40f1\Editor\Data\Managed\UnityEngine\UnityEngine.PhysicsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Physics2DModule">
+      <HintPath>G:\Unity\Hub\Editor\2019.4.40f1\Editor\Data\Managed\UnityEngine\UnityEngine.Physics2DModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ProfilerModule">
+      <HintPath>G:\Unity\Hub\Editor\2019.4.40f1\Editor\Data\Managed\UnityEngine\UnityEngine.ProfilerModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ScreenCaptureModule">
+      <HintPath>G:\Unity\Hub\Editor\2019.4.40f1\Editor\Data\Managed\UnityEngine\UnityEngine.ScreenCaptureModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.SharedInternalsModule">
+      <HintPath>G:\Unity\Hub\Editor\2019.4.40f1\Editor\Data\Managed\UnityEngine\UnityEngine.SharedInternalsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.SpriteMaskModule">
+      <HintPath>G:\Unity\Hub\Editor\2019.4.40f1\Editor\Data\Managed\UnityEngine\UnityEngine.SpriteMaskModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.SpriteShapeModule">
+      <HintPath>G:\Unity\Hub\Editor\2019.4.40f1\Editor\Data\Managed\UnityEngine\UnityEngine.SpriteShapeModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.StreamingModule">
+      <HintPath>G:\Unity\Hub\Editor\2019.4.40f1\Editor\Data\Managed\UnityEngine\UnityEngine.StreamingModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.SubstanceModule">
+      <HintPath>G:\Unity\Hub\Editor\2019.4.40f1\Editor\Data\Managed\UnityEngine\UnityEngine.SubstanceModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.SubsystemsModule">
+      <HintPath>G:\Unity\Hub\Editor\2019.4.40f1\Editor\Data\Managed\UnityEngine\UnityEngine.SubsystemsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TLSModule">
+      <HintPath>G:\Unity\Hub\Editor\2019.4.40f1\Editor\Data\Managed\UnityEngine\UnityEngine.TLSModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TerrainModule">
+      <HintPath>G:\Unity\Hub\Editor\2019.4.40f1\Editor\Data\Managed\UnityEngine\UnityEngine.TerrainModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TerrainPhysicsModule">
+      <HintPath>G:\Unity\Hub\Editor\2019.4.40f1\Editor\Data\Managed\UnityEngine\UnityEngine.TerrainPhysicsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TextCoreModule">
+      <HintPath>G:\Unity\Hub\Editor\2019.4.40f1\Editor\Data\Managed\UnityEngine\UnityEngine.TextCoreModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TextRenderingModule">
+      <HintPath>G:\Unity\Hub\Editor\2019.4.40f1\Editor\Data\Managed\UnityEngine\UnityEngine.TextRenderingModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TilemapModule">
+      <HintPath>G:\Unity\Hub\Editor\2019.4.40f1\Editor\Data\Managed\UnityEngine\UnityEngine.TilemapModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UIModule">
+      <HintPath>G:\Unity\Hub\Editor\2019.4.40f1\Editor\Data\Managed\UnityEngine\UnityEngine.UIModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UIElementsModule">
+      <HintPath>G:\Unity\Hub\Editor\2019.4.40f1\Editor\Data\Managed\UnityEngine\UnityEngine.UIElementsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UNETModule">
+      <HintPath>G:\Unity\Hub\Editor\2019.4.40f1\Editor\Data\Managed\UnityEngine\UnityEngine.UNETModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UmbraModule">
+      <HintPath>G:\Unity\Hub\Editor\2019.4.40f1\Editor\Data\Managed\UnityEngine\UnityEngine.UmbraModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityAnalyticsModule">
+      <HintPath>G:\Unity\Hub\Editor\2019.4.40f1\Editor\Data\Managed\UnityEngine\UnityEngine.UnityAnalyticsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityConnectModule">
+      <HintPath>G:\Unity\Hub\Editor\2019.4.40f1\Editor\Data\Managed\UnityEngine\UnityEngine.UnityConnectModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityTestProtocolModule">
+      <HintPath>G:\Unity\Hub\Editor\2019.4.40f1\Editor\Data\Managed\UnityEngine\UnityEngine.UnityTestProtocolModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestModule">
+      <HintPath>G:\Unity\Hub\Editor\2019.4.40f1\Editor\Data\Managed\UnityEngine\UnityEngine.UnityWebRequestModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestAssetBundleModule">
+      <HintPath>G:\Unity\Hub\Editor\2019.4.40f1\Editor\Data\Managed\UnityEngine\UnityEngine.UnityWebRequestAssetBundleModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestAudioModule">
+      <HintPath>G:\Unity\Hub\Editor\2019.4.40f1\Editor\Data\Managed\UnityEngine\UnityEngine.UnityWebRequestAudioModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestTextureModule">
+      <HintPath>G:\Unity\Hub\Editor\2019.4.40f1\Editor\Data\Managed\UnityEngine\UnityEngine.UnityWebRequestTextureModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestWWWModule">
+      <HintPath>G:\Unity\Hub\Editor\2019.4.40f1\Editor\Data\Managed\UnityEngine\UnityEngine.UnityWebRequestWWWModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.VFXModule">
+      <HintPath>G:\Unity\Hub\Editor\2019.4.40f1\Editor\Data\Managed\UnityEngine\UnityEngine.VFXModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.VRModule">
+      <HintPath>G:\Unity\Hub\Editor\2019.4.40f1\Editor\Data\Managed\UnityEngine\UnityEngine.VRModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.VehiclesModule">
+      <HintPath>G:\Unity\Hub\Editor\2019.4.40f1\Editor\Data\Managed\UnityEngine\UnityEngine.VehiclesModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.VideoModule">
+      <HintPath>G:\Unity\Hub\Editor\2019.4.40f1\Editor\Data\Managed\UnityEngine\UnityEngine.VideoModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.WindModule">
+      <HintPath>G:\Unity\Hub\Editor\2019.4.40f1\Editor\Data\Managed\UnityEngine\UnityEngine.WindModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.XRModule">
+      <HintPath>G:\Unity\Hub\Editor\2019.4.40f1\Editor\Data\Managed\UnityEngine\UnityEngine.XRModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor">
+      <HintPath>G:\Unity\Hub\Editor\2019.4.40f1\Editor\Data\Managed\UnityEditor.dll</HintPath>
+    </Reference>
+    <Reference Include="BestHTTP">
+      <HintPath>Assets\Plugins\BestHTTP.dll</HintPath>
+    </Reference>
+    <Reference Include="DOTween">
+      <HintPath>Assets\Plugins\DOTween.dll</HintPath>
+    </Reference>
+    <Reference Include="DOTween43">
+      <HintPath>Assets\Plugins\DOTween43.dll</HintPath>
+    </Reference>
+    <Reference Include="DOTween46">
+      <HintPath>Assets\Plugins\DOTween46.dll</HintPath>
+    </Reference>
+    <Reference Include="DOTween50">
+      <HintPath>Assets\Plugins\DOTween50.dll</HintPath>
+    </Reference>
+    <Reference Include="FacebookWinPhone8">
+      <HintPath>Assets\Plugins\FacebookWinPhone8.dll</HintPath>
+    </Reference>
+    <Reference Include="GETween">
+      <HintPath>Assets\Plugins\GETween.dll</HintPath>
+    </Reference>
+    <Reference Include="GUIAnimatorFREE">
+      <HintPath>Assets\Plugins\GUIAnimatorFREE.dll</HintPath>
+    </Reference>
+    <Reference Include="OpenIAB_W8Plugin">
+      <HintPath>Assets\Plugins\OpenIAB_W8Plugin.dll</HintPath>
+    </Reference>
+    <Reference Include="SmartFox2X">
+      <HintPath>Assets\Plugins\SmartFox2X.dll</HintPath>
+    </Reference>
+    <Reference Include="Tapjoy">
+      <HintPath>Assets\Plugins\Tapjoy.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Analytics.Editor">
+      <HintPath>Library\PackageCache\com.unity.analytics@3.6.12\Unity.Analytics.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Analytics.Tracker">
+      <HintPath>Library\PackageCache\com.unity.analytics@3.6.12\Unity.Analytics.Tracker.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Analytics.StandardEvents">
+      <HintPath>Library\PackageCache\com.unity.analytics@3.6.12\AnalyticsStandardEvents\Unity.Analytics.StandardEvents.dll</HintPath>
+    </Reference>
+    <Reference Include="mscorlib">
+      <HintPath>G:\Unity\Hub\Editor\2019.4.40f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\mscorlib.dll</HintPath>
+    </Reference>
+    <Reference Include="System">
+      <HintPath>G:\Unity\Hub\Editor\2019.4.40f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\System.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Core">
+      <HintPath>G:\Unity\Hub\Editor\2019.4.40f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\System.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization">
+      <HintPath>G:\Unity\Hub\Editor\2019.4.40f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\System.Runtime.Serialization.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml">
+      <HintPath>G:\Unity\Hub\Editor\2019.4.40f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\System.Xml.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <HintPath>G:\Unity\Hub\Editor\2019.4.40f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\System.Xml.Linq.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Numerics">
+      <HintPath>G:\Unity\Hub\Editor\2019.4.40f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\System.Numerics.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Numerics.Vectors">
+      <HintPath>G:\Unity\Hub\Editor\2019.4.40f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\System.Numerics.Vectors.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Http">
+      <HintPath>G:\Unity\Hub\Editor\2019.4.40f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\System.Net.Http.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.Compression">
+      <HintPath>G:\Unity\Hub\Editor\2019.4.40f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\System.IO.Compression.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp">
+      <HintPath>G:\Unity\Hub\Editor\2019.4.40f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Microsoft.CSharp.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Data">
+      <HintPath>G:\Unity\Hub\Editor\2019.4.40f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\System.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Win32.Primitives">
+      <HintPath>G:\Unity\Hub\Editor\2019.4.40f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\Microsoft.Win32.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="netstandard">
+      <HintPath>G:\Unity\Hub\Editor\2019.4.40f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\netstandard.dll</HintPath>
+    </Reference>
+    <Reference Include="System.AppContext">
+      <HintPath>G:\Unity\Hub\Editor\2019.4.40f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.AppContext.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Collections.Concurrent">
+      <HintPath>G:\Unity\Hub\Editor\2019.4.40f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Collections.Concurrent.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Collections">
+      <HintPath>G:\Unity\Hub\Editor\2019.4.40f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Collections.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Collections.NonGeneric">
+      <HintPath>G:\Unity\Hub\Editor\2019.4.40f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Collections.NonGeneric.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Collections.Specialized">
+      <HintPath>G:\Unity\Hub\Editor\2019.4.40f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Collections.Specialized.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ComponentModel.Annotations">
+      <HintPath>G:\Unity\Hub\Editor\2019.4.40f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.ComponentModel.Annotations.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ComponentModel">
+      <HintPath>G:\Unity\Hub\Editor\2019.4.40f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.ComponentModel.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ComponentModel.EventBasedAsync">
+      <HintPath>G:\Unity\Hub\Editor\2019.4.40f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.ComponentModel.EventBasedAsync.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ComponentModel.Primitives">
+      <HintPath>G:\Unity\Hub\Editor\2019.4.40f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.ComponentModel.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ComponentModel.TypeConverter">
+      <HintPath>G:\Unity\Hub\Editor\2019.4.40f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.ComponentModel.TypeConverter.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Console">
+      <HintPath>G:\Unity\Hub\Editor\2019.4.40f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Console.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Data.Common">
+      <HintPath>G:\Unity\Hub\Editor\2019.4.40f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Data.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Diagnostics.Contracts">
+      <HintPath>G:\Unity\Hub\Editor\2019.4.40f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Diagnostics.Contracts.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Diagnostics.Debug">
+      <HintPath>G:\Unity\Hub\Editor\2019.4.40f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Diagnostics.Debug.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Diagnostics.FileVersionInfo">
+      <HintPath>G:\Unity\Hub\Editor\2019.4.40f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Diagnostics.FileVersionInfo.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Diagnostics.Process">
+      <HintPath>G:\Unity\Hub\Editor\2019.4.40f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Diagnostics.Process.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Diagnostics.StackTrace">
+      <HintPath>G:\Unity\Hub\Editor\2019.4.40f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Diagnostics.StackTrace.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Diagnostics.TextWriterTraceListener">
+      <HintPath>G:\Unity\Hub\Editor\2019.4.40f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Diagnostics.TextWriterTraceListener.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Diagnostics.Tools">
+      <HintPath>G:\Unity\Hub\Editor\2019.4.40f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Diagnostics.Tools.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Diagnostics.TraceSource">
+      <HintPath>G:\Unity\Hub\Editor\2019.4.40f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Diagnostics.TraceSource.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Drawing.Primitives">
+      <HintPath>G:\Unity\Hub\Editor\2019.4.40f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Drawing.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Dynamic.Runtime">
+      <HintPath>G:\Unity\Hub\Editor\2019.4.40f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Dynamic.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Globalization.Calendars">
+      <HintPath>G:\Unity\Hub\Editor\2019.4.40f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Globalization.Calendars.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Globalization">
+      <HintPath>G:\Unity\Hub\Editor\2019.4.40f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Globalization.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Globalization.Extensions">
+      <HintPath>G:\Unity\Hub\Editor\2019.4.40f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Globalization.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.Compression.ZipFile">
+      <HintPath>G:\Unity\Hub\Editor\2019.4.40f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.IO.Compression.ZipFile.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO">
+      <HintPath>G:\Unity\Hub\Editor\2019.4.40f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.IO.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.FileSystem">
+      <HintPath>G:\Unity\Hub\Editor\2019.4.40f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.IO.FileSystem.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.FileSystem.DriveInfo">
+      <HintPath>G:\Unity\Hub\Editor\2019.4.40f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.IO.FileSystem.DriveInfo.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.FileSystem.Primitives">
+      <HintPath>G:\Unity\Hub\Editor\2019.4.40f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.IO.FileSystem.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.FileSystem.Watcher">
+      <HintPath>G:\Unity\Hub\Editor\2019.4.40f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.IO.FileSystem.Watcher.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.IsolatedStorage">
+      <HintPath>G:\Unity\Hub\Editor\2019.4.40f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.IO.IsolatedStorage.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.MemoryMappedFiles">
+      <HintPath>G:\Unity\Hub\Editor\2019.4.40f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.IO.MemoryMappedFiles.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.Pipes">
+      <HintPath>G:\Unity\Hub\Editor\2019.4.40f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.IO.Pipes.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.UnmanagedMemoryStream">
+      <HintPath>G:\Unity\Hub\Editor\2019.4.40f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.IO.UnmanagedMemoryStream.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Linq">
+      <HintPath>G:\Unity\Hub\Editor\2019.4.40f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Linq.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Linq.Expressions">
+      <HintPath>G:\Unity\Hub\Editor\2019.4.40f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Linq.Expressions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Linq.Parallel">
+      <HintPath>G:\Unity\Hub\Editor\2019.4.40f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Linq.Parallel.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Linq.Queryable">
+      <HintPath>G:\Unity\Hub\Editor\2019.4.40f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Linq.Queryable.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Http.Rtc">
+      <HintPath>G:\Unity\Hub\Editor\2019.4.40f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Net.Http.Rtc.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.NameResolution">
+      <HintPath>G:\Unity\Hub\Editor\2019.4.40f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Net.NameResolution.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.NetworkInformation">
+      <HintPath>G:\Unity\Hub\Editor\2019.4.40f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Net.NetworkInformation.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Ping">
+      <HintPath>G:\Unity\Hub\Editor\2019.4.40f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Net.Ping.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Primitives">
+      <HintPath>G:\Unity\Hub\Editor\2019.4.40f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Net.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Requests">
+      <HintPath>G:\Unity\Hub\Editor\2019.4.40f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Net.Requests.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Security">
+      <HintPath>G:\Unity\Hub\Editor\2019.4.40f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Net.Security.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Sockets">
+      <HintPath>G:\Unity\Hub\Editor\2019.4.40f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Net.Sockets.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.WebHeaderCollection">
+      <HintPath>G:\Unity\Hub\Editor\2019.4.40f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Net.WebHeaderCollection.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.WebSockets.Client">
+      <HintPath>G:\Unity\Hub\Editor\2019.4.40f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Net.WebSockets.Client.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.WebSockets">
+      <HintPath>G:\Unity\Hub\Editor\2019.4.40f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Net.WebSockets.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ObjectModel">
+      <HintPath>G:\Unity\Hub\Editor\2019.4.40f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.ObjectModel.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Reflection">
+      <HintPath>G:\Unity\Hub\Editor\2019.4.40f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Reflection.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Reflection.Emit">
+      <HintPath>G:\Unity\Hub\Editor\2019.4.40f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Reflection.Emit.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Reflection.Emit.ILGeneration">
+      <HintPath>G:\Unity\Hub\Editor\2019.4.40f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Reflection.Emit.ILGeneration.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Reflection.Emit.Lightweight">
+      <HintPath>G:\Unity\Hub\Editor\2019.4.40f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Reflection.Emit.Lightweight.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Reflection.Extensions">
+      <HintPath>G:\Unity\Hub\Editor\2019.4.40f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Reflection.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Reflection.Primitives">
+      <HintPath>G:\Unity\Hub\Editor\2019.4.40f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Reflection.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Resources.Reader">
+      <HintPath>G:\Unity\Hub\Editor\2019.4.40f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Resources.Reader.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Resources.ResourceManager">
+      <HintPath>G:\Unity\Hub\Editor\2019.4.40f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Resources.ResourceManager.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Resources.Writer">
+      <HintPath>G:\Unity\Hub\Editor\2019.4.40f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Resources.Writer.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.CompilerServices.VisualC">
+      <HintPath>G:\Unity\Hub\Editor\2019.4.40f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Runtime.CompilerServices.VisualC.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime">
+      <HintPath>G:\Unity\Hub\Editor\2019.4.40f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Extensions">
+      <HintPath>G:\Unity\Hub\Editor\2019.4.40f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Runtime.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Handles">
+      <HintPath>G:\Unity\Hub\Editor\2019.4.40f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Runtime.Handles.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.InteropServices">
+      <HintPath>G:\Unity\Hub\Editor\2019.4.40f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Runtime.InteropServices.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.InteropServices.RuntimeInformation">
+      <HintPath>G:\Unity\Hub\Editor\2019.4.40f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Runtime.InteropServices.RuntimeInformation.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.InteropServices.WindowsRuntime">
+      <HintPath>G:\Unity\Hub\Editor\2019.4.40f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Runtime.InteropServices.WindowsRuntime.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Numerics">
+      <HintPath>G:\Unity\Hub\Editor\2019.4.40f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Runtime.Numerics.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization.Formatters">
+      <HintPath>G:\Unity\Hub\Editor\2019.4.40f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Runtime.Serialization.Formatters.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization.Json">
+      <HintPath>G:\Unity\Hub\Editor\2019.4.40f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Runtime.Serialization.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization.Primitives">
+      <HintPath>G:\Unity\Hub\Editor\2019.4.40f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Runtime.Serialization.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization.Xml">
+      <HintPath>G:\Unity\Hub\Editor\2019.4.40f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Runtime.Serialization.Xml.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Claims">
+      <HintPath>G:\Unity\Hub\Editor\2019.4.40f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Security.Claims.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.Algorithms">
+      <HintPath>G:\Unity\Hub\Editor\2019.4.40f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Security.Cryptography.Algorithms.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.Csp">
+      <HintPath>G:\Unity\Hub\Editor\2019.4.40f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Security.Cryptography.Csp.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.Encoding">
+      <HintPath>G:\Unity\Hub\Editor\2019.4.40f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Security.Cryptography.Encoding.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.Primitives">
+      <HintPath>G:\Unity\Hub\Editor\2019.4.40f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Security.Cryptography.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.X509Certificates">
+      <HintPath>G:\Unity\Hub\Editor\2019.4.40f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Security.Cryptography.X509Certificates.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Principal">
+      <HintPath>G:\Unity\Hub\Editor\2019.4.40f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Security.Principal.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.SecureString">
+      <HintPath>G:\Unity\Hub\Editor\2019.4.40f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Security.SecureString.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ServiceModel.Duplex">
+      <HintPath>G:\Unity\Hub\Editor\2019.4.40f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.ServiceModel.Duplex.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ServiceModel.Http">
+      <HintPath>G:\Unity\Hub\Editor\2019.4.40f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.ServiceModel.Http.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ServiceModel.NetTcp">
+      <HintPath>G:\Unity\Hub\Editor\2019.4.40f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.ServiceModel.NetTcp.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ServiceModel.Primitives">
+      <HintPath>G:\Unity\Hub\Editor\2019.4.40f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.ServiceModel.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ServiceModel.Security">
+      <HintPath>G:\Unity\Hub\Editor\2019.4.40f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.ServiceModel.Security.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Text.Encoding">
+      <HintPath>G:\Unity\Hub\Editor\2019.4.40f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Text.Encoding.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Text.Encoding.Extensions">
+      <HintPath>G:\Unity\Hub\Editor\2019.4.40f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Text.Encoding.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Text.RegularExpressions">
+      <HintPath>G:\Unity\Hub\Editor\2019.4.40f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Text.RegularExpressions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading">
+      <HintPath>G:\Unity\Hub\Editor\2019.4.40f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Threading.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading.Overlapped">
+      <HintPath>G:\Unity\Hub\Editor\2019.4.40f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Threading.Overlapped.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading.Tasks">
+      <HintPath>G:\Unity\Hub\Editor\2019.4.40f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Threading.Tasks.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading.Tasks.Parallel">
+      <HintPath>G:\Unity\Hub\Editor\2019.4.40f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Threading.Tasks.Parallel.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading.Thread">
+      <HintPath>G:\Unity\Hub\Editor\2019.4.40f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Threading.Thread.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading.ThreadPool">
+      <HintPath>G:\Unity\Hub\Editor\2019.4.40f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Threading.ThreadPool.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading.Timer">
+      <HintPath>G:\Unity\Hub\Editor\2019.4.40f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Threading.Timer.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ValueTuple">
+      <HintPath>G:\Unity\Hub\Editor\2019.4.40f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.ValueTuple.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.ReaderWriter">
+      <HintPath>G:\Unity\Hub\Editor\2019.4.40f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Xml.ReaderWriter.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.XDocument">
+      <HintPath>G:\Unity\Hub\Editor\2019.4.40f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Xml.XDocument.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.XmlDocument">
+      <HintPath>G:\Unity\Hub\Editor\2019.4.40f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Xml.XmlDocument.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.XmlSerializer">
+      <HintPath>G:\Unity\Hub\Editor\2019.4.40f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Xml.XmlSerializer.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.XPath">
+      <HintPath>G:\Unity\Hub\Editor\2019.4.40f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Xml.XPath.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.XPath.XDocument">
+      <HintPath>G:\Unity\Hub\Editor\2019.4.40f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Xml.XPath.XDocument.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityScript">
+      <HintPath>G:\Unity\Hub\Editor\2019.4.40f1\Editor\Data\MonoBleedingEdge\lib\mono\unityscript\UnityScript.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityScript.Lang">
+      <HintPath>G:\Unity\Hub\Editor\2019.4.40f1\Editor\Data\MonoBleedingEdge\lib\mono\unityscript\UnityScript.Lang.dll</HintPath>
+    </Reference>
+    <Reference Include="Boo.Lang">
+      <HintPath>G:\Unity\Hub\Editor\2019.4.40f1\Editor\Data\MonoBleedingEdge\lib\mono\unityscript\Boo.Lang.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Timeline.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.Timeline.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Monetization">
+      <HintPath>Library\ScriptAssemblies\UnityEngine.Monetization.dll</HintPath>
+    </Reference>
+    <Reference Include="com.unity.multiplayer-hlapi.Editor">
+      <HintPath>Library\ScriptAssemblies\com.unity.multiplayer-hlapi.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.VSCode.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.VSCode.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Purchasing.Stores">
+      <HintPath>Library\ScriptAssemblies\UnityEngine.Purchasing.Stores.dll</HintPath>
+    </Reference>
+    <Reference Include="Purchasing.Common">
+      <HintPath>Library\ScriptAssemblies\Purchasing.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Advertisements">
+      <HintPath>Library\ScriptAssemblies\UnityEngine.Advertisements.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Purchasing">
+      <HintPath>Library\ScriptAssemblies\UnityEngine.Purchasing.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.Purchasing">
+      <HintPath>Library\ScriptAssemblies\UnityEditor.Purchasing.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.TextMeshPro.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UI">
+      <HintPath>Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Timeline">
+      <HintPath>Library\ScriptAssemblies\Unity.Timeline.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Purchasing.Codeless">
+      <HintPath>Library\ScriptAssemblies\UnityEngine.Purchasing.Codeless.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Purchasing.SecurityCore">
+      <HintPath>Library\ScriptAssemblies\UnityEngine.Purchasing.SecurityCore.dll</HintPath>
+    </Reference>
+    <Reference Include="com.unity.multiplayer-weaver.Editor">
+      <HintPath>Library\ScriptAssemblies\com.unity.multiplayer-weaver.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.XR.LegacyInputHelpers">
+      <HintPath>Library\ScriptAssemblies\UnityEngine.XR.LegacyInputHelpers.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Rider.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.Rider.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.DeviceSimulator.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.DeviceSimulator.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Analytics">
+      <HintPath>Library\ScriptAssemblies\Analytics.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.2D.Sprite.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.2D.Tilemap.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.SpatialTracking">
+      <HintPath>Library\ScriptAssemblies\UnityEditor.SpatialTracking.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.SpatialTracking">
+      <HintPath>Library\ScriptAssemblies\UnityEngine.SpatialTracking.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.VisualStudio.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Advertisements.Editor">
+      <HintPath>Library\ScriptAssemblies\UnityEngine.Advertisements.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.TextMeshPro">
+      <HintPath>Library\ScriptAssemblies\Unity.TextMeshPro.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Analytics.DataPrivacy">
+      <HintPath>Library\ScriptAssemblies\Unity.Analytics.DataPrivacy.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.XR.LegacyInputHelpers">
+      <HintPath>Library\ScriptAssemblies\UnityEditor.XR.LegacyInputHelpers.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.PlasticSCM.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Purchasing.SecurityStub">
+      <HintPath>Library\ScriptAssemblies\UnityEngine.Purchasing.SecurityStub.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.UI">
+      <HintPath>Library\ScriptAssemblies\UnityEditor.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="com.unity.multiplayer-hlapi.Runtime">
+      <HintPath>Library\ScriptAssemblies\com.unity.multiplayer-hlapi.Runtime.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
+      <Project>{F8260F34-270E-97CB-28BB-EFDFF6D4DB27}</Project>
+      <Name>Assembly-CSharp-firstpass</Name>
+    </ProjectReference>
+    <ProjectReference Include="InControl.Editor.csproj">
+      <Project>{A3222AAB-1F4C-C5F3-9F0F-5203FDB70A59}</Project>
+      <Name>InControl.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="InControl.csproj">
+      <Project>{306605F1-3584-D929-3F1B-DC6013819AA7}</Project>
+      <Name>InControl</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Target Name="GenerateTargetFrameworkMonikerAttribute" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
