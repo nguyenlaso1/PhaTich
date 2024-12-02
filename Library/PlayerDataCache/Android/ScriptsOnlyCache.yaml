@@ -185,6 +185,8 @@ ScriptsOnlyBuild:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
     - UnityEditor.TestTools.TestRunner.TestListCacheData
     - UnityEditor.TestTools.TestRunner.TestRun.TestJobDataHolder
+    UnityEditor.UI.dll:
+    - UnityEditor.UI.CanvasScalerEditor
     UnityEngine.UI.dll:
     - UnityEngine.EventSystems.EventSystem
     - UnityEngine.EventSystems.StandaloneInputModule
@@ -224,6 +226,10 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 48
       Script: {instanceID: 0}
+    - Class: 50
+      Script: {instanceID: 0}
+    - Class: 61
+      Script: {instanceID: 0}
     - Class: 74
       Script: {instanceID: 0}
     - Class: 81
@@ -241,7 +247,11 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 11608}
     - Class: 114
+      Script: {instanceID: 11694}
+    - Class: 114
       Script: {instanceID: 11700}
+    - Class: 114
+      Script: {instanceID: 11728}
     - Class: 114
       Script: {instanceID: 12040}
     - Class: 114
@@ -334,6 +344,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 18276}
     - Class: 114
       Script: {instanceID: 18286}
+    - Class: 114
+      Script: {instanceID: 18572}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 124
@@ -348,7 +360,11 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 199
       Script: {instanceID: 0}
+    - Class: 212
+      Script: {instanceID: 0}
     - Class: 213
+      Script: {instanceID: 0}
+    - Class: 221
       Script: {instanceID: 0}
     - Class: 222
       Script: {instanceID: 0}
@@ -735,7 +751,7 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 18702}
     - Class: 114
-      Script: {instanceID: 43780}
+      Script: {instanceID: 112248}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 124
