@@ -828,7 +828,6 @@
     <None Include="Assets\NGUI-T5\Resources\Shaders\Unlit - Text 2.shader" />
     <None Include="Assets\Resources\Hidden\Unlit\Unlit - Transparent Masked 1.shader" />
     <None Include="Assets\unity-ui-extensions-5.3\Shaders\UIMultiply.shader" />
-    <None Include="Assets\Resources\levels\bomber\forest\lvl1-3.txt" />
     <None Include="Assets\Resources\levels\bomber\extra\lvl9-10.txt" />
     <None Include="Assets\Resources\levels\bomber\magma\lvl6-15.txt" />
     <None Include="Assets\Resources\levels\bomber\swamp\lvl4-6.txt" />
@@ -859,7 +858,6 @@
     <None Include="Assets\Resources\levels\bomber\magma\lvl6-5.txt" />
     <None Include="Assets\NGUI-T5\Resources\Shaders\Unlit - Transparent Packed 1.shader" />
     <None Include="Assets\Resources\levels\bomber\frozen\lvl2-2.txt" />
-    <None Include="Assets\Resources\levels\bomber\forest\lvl1-1.txt" />
     <None Include="Assets\Resources\levels\bomber\street\lvl5-14.txt" />
     <None Include="Assets\Resources\levels\resource.txt" />
     <None Include="Assets\Shaders\Mobile-Particle-Alpha.shader" />
@@ -912,12 +910,11 @@
     <None Include="Assets\Resources\levels\bomber\frozen\lvl2-7.txt" />
     <None Include="Assets\NGUI-T5\Resources\Shaders\Unlit - Transparent Colored 1.shader" />
     <None Include="Assets\Resources\levels\bomber\street\lvl5-1.txt" />
-    <None Include="Assets\Resources\levels\bomber\forest\lvl1-4.txt" />
+    <None Include="Assets\Resources\levels\bomber\forest\lvl1-1.txt" />
     <None Include="Assets\NGUI-T5\Resources\Shaders\Unlit - Premultiplied Colored 1.shader" />
     <None Include="Assets\Resources\Hidden\Unlit\Unlit - Premultiplied Colored 1.shader" />
     <None Include="Assets\Resources\levels\bomber\street\lvl5-7.txt" />
     <None Include="Assets\NGUI-T5\Resources\Shaders\Unlit - Transparent Packed.shader" />
-    <None Include="Assets\Resources\levels\bomber\forest\lvl1-2.txt" />
     <None Include="Assets\Resources\levels\bomber\swamp\lvl4-1.txt" />
     <None Include="Assets\Resources\levels\bomber\magma\lvl6-14.txt" />
     <None Include="Assets\NGUI-T5\Resources\Shaders\Unlit - Transparent Colored (TextureClip).shader" />
