@@ -813,7 +813,6 @@
     <Compile Include="Assets\unity-ui-extensions-5.3\Scripts\VR Extensions\VRInputModule.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Assets\Resources\levels\bomber\frozen\lvl2-5.txt" />
     <None Include="Assets\Resources\levels\bomber\extra\lvl9-12.txt" />
     <None Include="Assets\Resources\levels\bomber\street\lvl5-10.txt" />
     <None Include="Assets\Resources\levels\bomber\desert\lvl3-5.txt" />
@@ -857,7 +856,6 @@
     <None Include="Assets\NGUI-T5\Resources\Shaders\Unlit - Text (TextureClip).shader" />
     <None Include="Assets\Resources\levels\bomber\magma\lvl6-5.txt" />
     <None Include="Assets\NGUI-T5\Resources\Shaders\Unlit - Transparent Packed 1.shader" />
-    <None Include="Assets\Resources\levels\bomber\frozen\lvl2-2.txt" />
     <None Include="Assets\Resources\levels\bomber\street\lvl5-14.txt" />
     <None Include="Assets\Resources\levels\resource.txt" />
     <None Include="Assets\Shaders\Mobile-Particle-Alpha.shader" />
@@ -867,7 +865,6 @@
     <None Include="Assets\Resources\levels\bomber\street\lvl5-4.txt" />
     <None Include="Assets\Resources\levels\bomber\swamp\lvl4-3.txt" />
     <None Include="Assets\unity-ui-extensions-5.3\Shaders\UISoftAdditive.shader" />
-    <None Include="Assets\Resources\levels\bomber\frozen\lvl2-6.txt" />
     <None Include="Assets\Resources\Unlit\Unlit - Transparent Colored.shader" />
     <None Include="Assets\Resources\levels\bomber\extra\lvl9-8.txt" />
     <None Include="Assets\NGUI-T5\Resources\Shaders\Unlit - Premultiplied Colored.shader" />
@@ -876,10 +873,8 @@
     <None Include="Assets\Resources\levels\bomber\street\lvl5-13.txt" />
     <None Include="Assets\unity-ui-extensions-5.3\Shaders\SoftMaskShaderText.shader" />
     <None Include="Assets\Resources\Localization.txt" />
-    <None Include="Assets\Resources\levels\bomber\frozen\lvl2-9.txt" />
     <None Include="Assets\unity-ui-extensions-5.3\Scripts\Utilities\Serialization\Surrogates\SurrogatesReadMe.txt" />
     <None Include="Assets\Resources\levels\bomber\desert\lvl3-9.txt" />
-    <None Include="Assets\Resources\levels\bomber\frozen\lvl2-3.txt" />
     <None Include="Assets\Resources\Hidden\Unlit\Unlit - Transparent Colored 2.shader" />
     <None Include="Assets\Resources\Hidden\Unlit\Unlit - Transparent Packed 2.shader" />
     <None Include="Assets\Resources\Hidden\Unlit\Unlit - Transparent Packed 3.shader" />
@@ -890,7 +885,6 @@
     <None Include="Assets\Resources\levels\bomber\street\lvl5-5.txt" />
     <None Include="Assets\Resources\levels\bomber\extra\lvl9-11.txt" />
     <None Include="Assets\Resources\tapjoyresources.bundle\MRAID_Standard_HTML_Stub.xml" />
-    <None Include="Assets\Resources\levels\bomber\frozen\lvl2-4.txt" />
     <None Include="Assets\Resources\inapp.txt" />
     <None Include="Assets\Resources\levels\bomber\extra\lvl9-3.txt" />
     <None Include="Assets\Resources\levels\bomber\street\lvl5-12.txt" />
@@ -907,7 +901,7 @@
     <None Include="Assets\Shaders\Particle Alpha Blend.shader" />
     <None Include="Assets\Resources\levels\bomber\swamp\lvl4-2.txt" />
     <None Include="Assets\Resources\levels\bomber\magma\lvl6-6.txt" />
-    <None Include="Assets\Resources\levels\bomber\frozen\lvl2-7.txt" />
+    <None Include="Assets\Resources\levels\bomber\frozen\lvl2-1.txt" />
     <None Include="Assets\NGUI-T5\Resources\Shaders\Unlit - Transparent Colored 1.shader" />
     <None Include="Assets\Resources\levels\bomber\street\lvl5-1.txt" />
     <None Include="Assets\Resources\levels\bomber\forest\lvl1-1.txt" />
@@ -921,7 +915,6 @@
     <None Include="Assets\Resources\Hidden\Unlit\Unlit - Transparent Colored (TextureClip).shader" />
     <None Include="Assets\NGUI-T5\Resources\Shaders\Unlit - Transparent Masked.shader" />
     <None Include="Assets\NGUI-T5\Resources\Shaders\Unlit - Premultiplied Colored 3.shader" />
-    <None Include="Assets\Resources\levels\bomber\frozen\lvl2-1.txt" />
     <None Include="Assets\Resources\Hidden\Unlit\Unlit - Transparent Colored 3.shader" />
     <None Include="Assets\Resources\Hidden\Unlit\Unlit - Premultiplied Colored 2.shader" />
     <None Include="Assets\Resources\levels\bomber\desert\lvl3-6.txt" />
@@ -940,7 +933,6 @@
     <None Include="Assets\unity-ui-extensions-5.3\Shaders\SoftMaskShader.shader" />
     <None Include="Assets\Resources\levels\bomber\desert\lvl3-1.txt" />
     <None Include="Assets\Resources\JSSDKBindings.txt" />
-    <None Include="Assets\Resources\levels\bomber\frozen\lvl2-8.txt" />
     <None Include="Assets\Resources\levels\bomber\extra\lvl9-4.txt" />
     <None Include="Assets\unity-ui-extensions-5.3\Shaders\UIScreen.shader" />
     <None Include="Assets\Resources\Hidden\Unlit\Unlit - Transparent Masked 3.shader" />
