@@ -18,7 +18,7 @@ TextureImporter:
       213: 21300008
     second: tiled9
   externalObjects: {}
-  serializedVersion: 10
+  serializedVersion: 11
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -72,6 +72,7 @@ TextureImporter:
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
+  applyGammaDecoding: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -104,8 +105,8 @@ TextureImporter:
       name: tiled10
       rect:
         serializedVersion: 2
-        x: 138
-        y: 0
+        x: 140
+        y: 6
         width: 72
         height: 83
       alignment: 0
@@ -128,7 +129,7 @@ TextureImporter:
         x: 0
         y: 96
         width: 66
-        height: 86
+        height: 66
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -147,9 +148,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 69
-        y: 0
-        width: 67
-        height: 91
+        y: 16
+        width: 66
+        height: 66
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -189,9 +190,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 0
-        width: 67
-        height: 94
+        y: 16
+        width: 66
+        height: 66
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -208,7 +209,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: f43d71c2728a2374b84caa8e23550466
     internalID: 0
     vertices: []
     indices: 
