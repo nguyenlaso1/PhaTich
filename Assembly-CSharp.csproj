@@ -936,6 +936,7 @@
     <None Include="Assets\Resources\tapjoyresources.bundle\MRAID_Standard_JS_Stub.xml" />
     <None Include="Assets\Shaders\Particle Premultiply Blend.shader" />
     <None Include="Assets\NGUI-T5\Resources\Shaders\Unlit - Transparent Masked 3.shader" />
+    <None Include="Assets\Resources\levels\bomber\desert\lvl3-7.txt" />
     <None Include="Assets\Resources\Unlit\Unlit - Text.shader" />
     <None Include="Assets\NGUI-T5\Resources\Shaders\Unlit - Transparent Masked 2.shader" />
     <None Include="Assets\NGUI-T5\Resources\Shaders\Unlit - Transparent Colored 2.shader" />

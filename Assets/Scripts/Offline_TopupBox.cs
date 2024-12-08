@@ -18,7 +18,7 @@ public class Offline_TopupBox : BaseBox
 			this._inappButtons[this._countInapp].gold = gold;
 			this._inappButtons[this._countInapp].chip = chip;
 			//this._inappButtons[this._countInapp].price = "$" + price;
-			this._inappButtons[this._countInapp].price = price + "VNĐ";
+			this._inappButtons[this._countInapp].price = price + " VNĐ";
 			this._inappButtons[this._countInapp].sku = sku;
 			this._inappButtons[this._countInapp].ActiveButton(Joker2XConfigUtils.TURN_ON_INAPP);
 			this._countInapp++;

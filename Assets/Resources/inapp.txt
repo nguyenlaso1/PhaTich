@@ -1,1 +1,1 @@
-[{"gold":10500,"pay":0.99,"id":"gold1","chip":10500},{"gold":55000,"pay":4.99,"id":"gold2","chip":55000},{"gold":107500,"pay":9.99,"id":"gold3","chip":107500},{"gold":220000,"pay":19.99,"id":"gold4","chip":220000},{"gold":335000,"pay":29.99,"id":"gold5","chip":335000}]
+[{"gold":1005,"pay":20000.0,"id":"gold1","chip":1005},{"gold":3000,"pay":50000.0,"id":"gold2","chip":3000},{"gold":7500,"pay":100000.0,"id":"gold3","chip":7500},{"gold":15000,"pay":200000.0,"id":"gold4","chip":15000},{"gold":33500,"pay":500000.0,"id":"gold5","chip":33500}]
