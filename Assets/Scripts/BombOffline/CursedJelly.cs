@@ -10,7 +10,7 @@ namespace BombOffline
 		protected override void InitMonsterProperty()
 		{
 			MusicManager.instance.PlaySingle(this.incomingSound, 1f);
-			this.board.ShowBossName(this.monsterName);
+			//this.board.ShowBossName(this.monsterName);
 			this.spawnCooldown = this.spawnTime;
 			this.shootCooldown = this.shootTime;
 			this.poolCooldown = this.poolTime;

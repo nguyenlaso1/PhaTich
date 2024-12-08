@@ -827,16 +827,13 @@
     <None Include="Assets\unity-ui-extensions-5.3\Shaders\UIMultiply.shader" />
     <None Include="Assets\Resources\levels\bomber\extra\lvl9-10.txt" />
     <None Include="Assets\Resources\levels\bomber\magma\lvl6-15.txt" />
-    <None Include="Assets\Resources\levels\bomber\swamp\lvl4-6.txt" />
     <None Include="Assets\Shaders\Particle AddSmooth.shader" />
     <None Include="Assets\Resources\levels\bomber\magma\lvl6-12.txt" />
     <None Include="Assets\NGUI-T5\Resources\Shaders\Unlit - Transparent Packed 3.shader" />
     <None Include="Assets\Resources\Unlit\Unlit - Premultiplied Colored.shader" />
     <None Include="Assets\Resources\Unlit\Unlit - Transparent Colored (Packed) (TextureClip).shader" />
-    <None Include="Assets\Resources\levels\bomber\swamp\lvl4-9.txt" />
-    <None Include="Assets\Resources\levels\bomber\swamp\lvl4-8.txt" />
+    <None Include="Assets\Resources\levels\bomber\swamp\lvl4-1.txt" />
     <None Include="Assets\Resources\levels\bomber\magma\lvl6-10.txt" />
-    <None Include="Assets\Resources\levels\bomber\swamp\lvl4-5.txt" />
     <None Include="Assets\Resources\levels\bomber\street\lvl5-8.txt" />
     <None Include="Assets\NGUI-T5\Resources\Shaders\Unlit - Text 1.shader" />
     <None Include="Assets\unity-ui-extensions-5.3\Shaders\UIParticleHidden.shader" />
@@ -859,7 +856,6 @@
     <None Include="Assets\Shaders\Mobile-Particle-Add.shader" />
     <None Include="Assets\Resources\Hidden\Unlit\Unlit - Transparent Colored 1.shader" />
     <None Include="Assets\Resources\levels\bomber\street\lvl5-4.txt" />
-    <None Include="Assets\Resources\levels\bomber\swamp\lvl4-3.txt" />
     <None Include="Assets\unity-ui-extensions-5.3\Shaders\UISoftAdditive.shader" />
     <None Include="Assets\Resources\Unlit\Unlit - Transparent Colored.shader" />
     <None Include="Assets\Resources\levels\bomber\extra\lvl9-8.txt" />
@@ -875,7 +871,6 @@
     <None Include="Assets\Resources\Hidden\Unlit\Unlit - Transparent Packed 3.shader" />
     <None Include="Assets\unity-ui-extensions-5.3\Shaders\UIAdditive.shader" />
     <None Include="Assets\NGUI-T5\Resources\Shaders\Unlit - Transparent Colored 3.shader" />
-    <None Include="Assets\Resources\levels\bomber\swamp\lvl4-4.txt" />
     <None Include="Assets\Resources\levels\bomber\extra\lvl9-5.txt" />
     <None Include="Assets\Resources\levels\bomber\street\lvl5-5.txt" />
     <None Include="Assets\Resources\levels\bomber\extra\lvl9-11.txt" />
@@ -887,14 +882,12 @@
     <None Include="Assets\Resources\levels\bomber\magma\lvl6-4.txt" />
     <None Include="Assets\Resources\Hidden\Unlit\Unlit - Premultiplied Colored 3.shader" />
     <None Include="Assets\Resources\levels\bomber\street\lvl5-6.txt" />
-    <None Include="Assets\Resources\levels\bomber\swamp\lvl4-7.txt" />
     <None Include="Assets\Resources\levels\bomber\extra\lvl9-13.txt" />
     <None Include="Assets\Resources\levels\bomber\street\lvl5-9.txt" />
     <None Include="Assets\Resources\levels\bomber\street\lvl5-3.txt" />
     <None Include="Assets\Resources\levels\bomber\magma\lvl6-9.txt" />
     <None Include="Assets\Resources\levels\bomber\magma\lvl6-1.txt" />
     <None Include="Assets\Shaders\Particle Alpha Blend.shader" />
-    <None Include="Assets\Resources\levels\bomber\swamp\lvl4-2.txt" />
     <None Include="Assets\Resources\levels\bomber\magma\lvl6-6.txt" />
     <None Include="Assets\Resources\levels\bomber\frozen\lvl2-1.txt" />
     <None Include="Assets\NGUI-T5\Resources\Shaders\Unlit - Transparent Colored 1.shader" />
@@ -904,7 +897,6 @@
     <None Include="Assets\Resources\Hidden\Unlit\Unlit - Premultiplied Colored 1.shader" />
     <None Include="Assets\Resources\levels\bomber\street\lvl5-7.txt" />
     <None Include="Assets\NGUI-T5\Resources\Shaders\Unlit - Transparent Packed.shader" />
-    <None Include="Assets\Resources\levels\bomber\swamp\lvl4-1.txt" />
     <None Include="Assets\Resources\levels\bomber\magma\lvl6-14.txt" />
     <None Include="Assets\NGUI-T5\Resources\Shaders\Unlit - Transparent Colored (TextureClip).shader" />
     <None Include="Assets\Resources\Hidden\Unlit\Unlit - Transparent Colored (TextureClip).shader" />
@@ -936,7 +928,6 @@
     <None Include="Assets\Resources\tapjoyresources.bundle\MRAID_Standard_JS_Stub.xml" />
     <None Include="Assets\Shaders\Particle Premultiply Blend.shader" />
     <None Include="Assets\NGUI-T5\Resources\Shaders\Unlit - Transparent Masked 3.shader" />
-    <None Include="Assets\Resources\levels\bomber\desert\lvl3-7.txt" />
     <None Include="Assets\Resources\Unlit\Unlit - Text.shader" />
     <None Include="Assets\NGUI-T5\Resources\Shaders\Unlit - Transparent Masked 2.shader" />
     <None Include="Assets\NGUI-T5\Resources\Shaders\Unlit - Transparent Colored 2.shader" />

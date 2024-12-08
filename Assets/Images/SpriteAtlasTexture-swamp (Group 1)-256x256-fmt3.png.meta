@@ -7,7 +7,7 @@ TextureImporter:
     second: ground17
   - first:
       213: 21300002
-    second: ground18
+    second: ground18_1
   - first:
       213: 21300004
     second: ground23
@@ -18,7 +18,7 @@ TextureImporter:
       213: 21300008
     second: ground16
   externalObjects: {}
-  serializedVersion: 10
+  serializedVersion: 11
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -72,6 +72,7 @@ TextureImporter:
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
+  applyGammaDecoding: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -164,7 +165,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ground18
+      name: ground18_1
       rect:
         serializedVersion: 2
         x: 136
@@ -208,7 +209,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 4ae346862b16b5d4a8a465b7185e2cca
     internalID: 0
     vertices: []
     indices: 

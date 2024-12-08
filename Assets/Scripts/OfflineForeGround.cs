@@ -1,4 +1,4 @@
-// @sonhg: class: OfflineForeGround
+﻿// @sonhg: class: OfflineForeGround
 using System;
 using System.Collections;
 using BombOffline;
@@ -18,11 +18,12 @@ public class OfflineForeGround : MonoBehaviour
 		this.inControlPanel.SetActive(false);
 		this.levelText.text = string.Concat(new string[]
 		{
-			"<color=yellow>",
-			OfflineMapChooser.CurrentZone,
-			" ",
-			OfflineMapChooser.CurrentLevel,
-			"</color>\ndefeat all monster"
+			"Tiêu diệt toàn bộ quái vật"
+			//"<color=yellow>",
+			//OfflineMapChooser.CurrentZone,
+			//" ",
+			//OfflineMapChooser.CurrentLevel,
+			//"</color>\n"
 		});
 		yield return new WaitForSeconds(0.75f);
 		this.inControlPanel.SetActive(true);
