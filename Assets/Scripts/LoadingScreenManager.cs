@@ -1,4 +1,4 @@
-// @sonhg: class: LoadingScreenManager
+﻿// @sonhg: class: LoadingScreenManager
 using System;
 using System.Collections;
 using System.Collections.Generic;
@@ -87,26 +87,27 @@ public class LoadingScreenManager : MonoBehaviour
 	{
 		return new List<string>
 		{
-			"Stuck on a level ? Try another Land !",
-			"Always find items first !",
-			"Conquer Land Boss to get huge Gold Bags and Achievement Reward!",
-			"You can change controller type in Pause Menu.",
-			"Bees always chase you.",
-			"Mushroom monsters have no brain so they move randomly.",
-			"Egg monsters can eat bombs so surround them.",
-			"Club Penguin : how to be invisible.",
-			"Living Flame monsters have a protect shield.",
-			"Questionmark item is mysterious...",
-			"Collect items to maximum stats \nReady for BOSS battle !",
-			"Place bombs as much as you can.",
-			"WATCH OUT!!!",
-			"Swamp Land : Swamp Mud reverses your control !",
-			"Forest Land : Root trap keeps you in a short time",
-			"Frozen Land : Frozen trap makes that you can't stop place the bombs !",
-			"Desert Land : Quicksand slows your steps !",
-			"Take care of these Toxic boxes and Tourchs !",
-			"You have 3 Lifes each level.",
-			"New Land - New adventure"
+			"Đoán xem điều gì đang chờ đợi bạn ở phía trước nào?"
+			//"Stuck on a level ? Try another Land !",
+			//"Always find items first !",
+			//"Conquer Land Boss to get huge Gold Bags and Achievement Reward!",
+			//"You can change controller type in Pause Menu.",
+			//"Bees always chase you.",
+			//"Mushroom monsters have no brain so they move randomly.",
+			//"Egg monsters can eat bombs so surround them.",
+			//"Club Penguin : how to be invisible.",
+			//"Living Flame monsters have a protect shield.",
+			//"Questionmark item is mysterious...",
+			//"Collect items to maximum stats \nReady for BOSS battle !",
+			//"Place bombs as much as you can.",
+			//"WATCH OUT!!!",
+			//"Swamp Land : Swamp Mud reverses your control !",
+			//"Forest Land : Root trap keeps you in a short time",
+			//"Frozen Land : Frozen trap makes that you can't stop place the bombs !",
+			//"Desert Land : Quicksand slows your steps !",
+			//"Take care of these Toxic boxes and Tourchs !",
+			//"You have 3 Lifes each level.",
+			//"New Land - New adventure"
 		}.GetRandomElement<string>();
 	}
 
