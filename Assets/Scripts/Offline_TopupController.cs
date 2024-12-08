@@ -1,4 +1,4 @@
-// @sonhg: class: Offline_TopupController
+﻿// @sonhg: class: Offline_TopupController
 using System;
 using System.Collections.Generic;
 using BombOffline;
@@ -112,7 +112,7 @@ public class Offline_TopupController : MonoBehaviour
 				{
 					base.transform.GetComponent<Offline_ShopController>().UpdateCoin();
 				}
-				Offline_Context.Confirm.AddMessage("Buy Success !", string.Empty, string.Empty);
+				Offline_Context.Confirm.AddMessage("Mua thành công!", string.Empty, string.Empty);
 				Context.googleAnalytics.LogEvent(Analystics.C_MAIN_MENU, Analystics.A_INAPP, Analystics.L_SUCCESS, (long)inappItem.Chip);
 				OpenIAB.consumeProduct(purchase);
 			}
@@ -129,7 +129,7 @@ public class Offline_TopupController : MonoBehaviour
 	private void OnPurchaseFailed(int errorCode, string error)
 	{
 		Offline_Context.Waitting.HideWaiting();
-		Offline_Context.Confirm.AddMessage("Purchase Item Error", string.Empty, string.Empty);
+		Offline_Context.Confirm.AddMessage("Mua vật phẩm thất bại!", string.Empty, string.Empty);
 		UnityEngine.Debug.Log("Purchase failed: " + error);
 		Context.googleAnalytics.LogEvent(Analystics.C_MAIN_MENU, Analystics.A_INAPP, Analystics.L_FAILD + " - " + error, 0L);
 	}
