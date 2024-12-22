@@ -3,9 +3,10 @@
 --- !u!221 &22100000
 AnimatorOverrideController:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_Name: "Bee"
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Bee
   m_Controller: {fileID: 9100000, guid: 6cdc90697da845348d2fd4cf05f109c4, type: 2}
   m_Clips:
   - m_OriginalClip: {fileID: 7400000, guid: 2b1fe106a79443b99971488640a6fe83, type: 2}
