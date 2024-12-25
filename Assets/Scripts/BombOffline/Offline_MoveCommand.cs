@@ -11,13 +11,13 @@ namespace BombOffline
 			if (xAxis == 0f && yAxis == 0f)
 			{
 				this._currentDirection = MoveDirection.STAND;
-				actor.arrowObject.SetActive(false);
+				//actor.arrowObject.SetActive(false);
 			}
 			else
 			{
 				float num = Mathf.Atan2(xAxis, yAxis) * 57.29578f;
-				actor.arrowObject.SetActive(true);
-				actor.arrowObject.transform.localEulerAngles = new Vector3(actor.arrowObject.transform.localRotation.x, actor.arrowObject.transform.localRotation.y, num - 90f);
+				//actor.arrowObject.SetActive(true);
+				//actor.arrowObject.transform.localEulerAngles = new Vector3(actor.arrowObject.transform.localRotation.x, actor.arrowObject.transform.localRotation.y, num - 90f);
 				if (isDynamic)
 				{
 					if (this.BetweenValue(num, -15f, 15f))

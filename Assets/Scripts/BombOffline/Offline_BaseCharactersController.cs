@@ -301,7 +301,7 @@ namespace BombOffline
 
 		public bool enableAllRayCast;
 
-		public GameObject arrowObject;
+		//public GameObject arrowObject;
 
 		public bool CanMoveThrough;
 

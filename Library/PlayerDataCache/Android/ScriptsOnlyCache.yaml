@@ -178,8 +178,11 @@ ScriptsOnlyBuild:
     UnityEditor.Graphs.dll:
     - UnityEditor.Graphs.AnimationBlendTree.Graph
     - UnityEditor.Graphs.AnimationBlendTree.GraphGUI
+    - UnityEditor.Graphs.AnimationStateMachine.AnyStateNode
     - UnityEditor.Graphs.AnimationStateMachine.Graph
     - UnityEditor.Graphs.AnimationStateMachine.GraphGUI
+    - UnityEditor.Graphs.AnimationStateMachine.StateMachineNode
+    - UnityEditor.Graphs.AnimationStateMachine.StateNode
     - UnityEditor.Graphs.AnimatorControllerTool
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
@@ -755,7 +758,7 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 18704}
     - Class: 114
-      Script: {instanceID: 83290}
+      Script: {instanceID: 414574}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 124
@@ -996,13 +999,13 @@ ScriptsOnlyBuild:
     className: GameStateManager
   - hash:
       serializedVersion: 2
-      Hash: 69c31d604b3b941e145ca61b7043166c
+      Hash: 163c422db8a0c0eb6198d8e21ec2266c
     assemblyName: Assembly-CSharp.dll
     namespaceName: BombOffline
     className: Offline_CleverMonster
   - hash:
       serializedVersion: 2
-      Hash: 5e236bb76e2a006b6a4e733b4fa26ff8
+      Hash: bfbd44d711d518ab4dd0a17afe1d964d
     assemblyName: Assembly-CSharp.dll
     namespaceName: BombOffline
     className: SwampTile
@@ -1026,19 +1029,19 @@ ScriptsOnlyBuild:
     className: Offline_TopupInappRemoveAds
   - hash:
       serializedVersion: 2
-      Hash: eea1a2490fdff2009ac8b85cf03160f9
+      Hash: 75ac3e0988e7b1257bc5740d0f3d550f
     assemblyName: Assembly-CSharp.dll
     namespaceName: BombOffline
     className: TankWhale
   - hash:
       serializedVersion: 2
-      Hash: 3009759af483fc0980ec509369be63fb
+      Hash: 09e6f08dbb2d6484ac2dc56f761283e8
     assemblyName: Assembly-CSharp.dll
     namespaceName: BombOffline
     className: Offline_PlayerController
   - hash:
       serializedVersion: 2
-      Hash: 7fdc6aee64ee4361ff9f300b03d2c8d2
+      Hash: 671e4088a2cb9687a8017450a52d3e58
     assemblyName: Assembly-CSharp.dll
     namespaceName: BombOffline
     className: BaseEggMonster
@@ -1086,7 +1089,7 @@ ScriptsOnlyBuild:
     className: BannerPlaceholder
   - hash:
       serializedVersion: 2
-      Hash: da8f93b8282f00e708073107f61d6f94
+      Hash: 31ea8c9e0088e95336c5a617ff65d145
     assemblyName: Assembly-CSharp.dll
     namespaceName: BombOffline
     className: CursedJelly
@@ -1104,13 +1107,13 @@ ScriptsOnlyBuild:
     className: MagmaBullet
   - hash:
       serializedVersion: 2
-      Hash: 89cd795230eed26194a5b94d18ff476d
+      Hash: 39c711376e552f6078cd0bdb300d2d71
     assemblyName: Assembly-CSharp.dll
     namespaceName: BombOffline
     className: Magmagan
   - hash:
       serializedVersion: 2
-      Hash: cd7fd84449d87831902cf045d3c3e839
+      Hash: 77b8b144d1dfac66e6945959e6fc0c94
     assemblyName: Assembly-CSharp.dll
     namespaceName: BombOffline
     className: LockArmoured
@@ -1212,7 +1215,7 @@ ScriptsOnlyBuild:
     className: FlashBullet
   - hash:
       serializedVersion: 2
-      Hash: b7c14762e4241ae3ad1bae416ac8f32a
+      Hash: 4620490bfab3b3e78510ac8775d1e0d4
     assemblyName: Assembly-CSharp.dll
     namespaceName: BombOffline
     className: EvilBurger
@@ -1248,7 +1251,7 @@ ScriptsOnlyBuild:
     className: ArmModel
   - hash:
       serializedVersion: 2
-      Hash: 50bf2a03fc8c92c2ee97755a8a25843a
+      Hash: af8563d6a08422ed103066b2482c8162
     assemblyName: Assembly-CSharp.dll
     namespaceName: BombOffline
     className: AngryCactus
@@ -1266,7 +1269,7 @@ ScriptsOnlyBuild:
     className: GroupTrack
   - hash:
       serializedVersion: 2
-      Hash: 77dece26d7ab4184cca5cef6cd801959
+      Hash: 79c0d6bc28daf73d39474b7de8123a3f
     assemblyName: Assembly-CSharp.dll
     namespaceName: BombOffline
     className: Offline_Bot
@@ -1308,7 +1311,7 @@ ScriptsOnlyBuild:
     className: EQ_OrbitCamera
   - hash:
       serializedVersion: 2
-      Hash: 8bebdc1f178191963d6444d3331f5621
+      Hash: ae7cf16030da5552939af21948b6663e
     assemblyName: Assembly-CSharp.dll
     namespaceName: BombOffline
     className: LavaSurger
@@ -1338,7 +1341,7 @@ ScriptsOnlyBuild:
     className: NetworkIdentity
   - hash:
       serializedVersion: 2
-      Hash: 1461c8ef47a2a792966f63e3eb819ce5
+      Hash: b681f85550e05b4c5d214d46b3e0594f
     assemblyName: Assembly-CSharp.dll
     namespaceName: BombOffline
     className: Cracar
@@ -1392,7 +1395,7 @@ ScriptsOnlyBuild:
     className: TopupInappItem
   - hash:
       serializedVersion: 2
-      Hash: c1916b1911f0b57001f23039fb75b3f0
+      Hash: 7bfd334fb567e6fe9388207247329b21
     assemblyName: Assembly-CSharp.dll
     namespaceName: BombOffline
     className: Nightwalker
@@ -1542,7 +1545,7 @@ ScriptsOnlyBuild:
     className: SignalAsset
   - hash:
       serializedVersion: 2
-      Hash: 9748420df23ef314c71f719c03a2b2c2
+      Hash: 3b487a8c2371f58b8167d6e0b72f2973
     assemblyName: Assembly-CSharp.dll
     namespaceName: BombOffline
     className: MasterZombie0
@@ -1572,7 +1575,7 @@ ScriptsOnlyBuild:
     className: PhysicsRaycaster
   - hash:
       serializedVersion: 2
-      Hash: 5508f479597bdffef1fd87e8018b03e4
+      Hash: 7f475d6244f9802bce2dc74697b9841e
     assemblyName: Assembly-CSharp.dll
     namespaceName: BombOffline
     className: ChaosMeteor
@@ -1824,7 +1827,7 @@ ScriptsOnlyBuild:
     className: Offline_ParticlesController
   - hash:
       serializedVersion: 2
-      Hash: b7c14762e4241ae3ad1bae416ac8f32a
+      Hash: 4620490bfab3b3e78510ac8775d1e0d4
     assemblyName: Assembly-CSharp.dll
     namespaceName: BombOffline
     className: Dengurin
@@ -1890,7 +1893,7 @@ ScriptsOnlyBuild:
     className: ProfileBox
   - hash:
       serializedVersion: 2
-      Hash: 1bda2a3b3857edc3f7f8d0e40edddbe4
+      Hash: a5dc3a2ec4b0bf60365abf092cbc4a20
     assemblyName: Assembly-CSharp.dll
     namespaceName: BombOffline
     className: NovaGolem
@@ -1968,13 +1971,13 @@ ScriptsOnlyBuild:
     className: ObjectIdentifier
   - hash:
       serializedVersion: 2
-      Hash: c1916b1911f0b57001f23039fb75b3f0
+      Hash: 7bfd334fb567e6fe9388207247329b21
     assemblyName: Assembly-CSharp.dll
     namespaceName: BombOffline
     className: QueenBee
   - hash:
       serializedVersion: 2
-      Hash: 9594d0a457c5374c7a4935bdefc36b78
+      Hash: f30e567d81930ebbef273abcf42c3831
     assemblyName: Assembly-CSharp.dll
     namespaceName: BombOffline
     className: ToxicBox
@@ -1992,7 +1995,7 @@ ScriptsOnlyBuild:
     className: AutoFade
   - hash:
       serializedVersion: 2
-      Hash: 208232d5666c5ca3c1d7d3d140e2fb52
+      Hash: 0a8434d012345ce1e3a181376665c93d
     assemblyName: Assembly-CSharp.dll
     namespaceName: BombOffline
     className: Despider
@@ -2046,7 +2049,7 @@ ScriptsOnlyBuild:
     className: UICamera
   - hash:
       serializedVersion: 2
-      Hash: 9804a09eb630ae863fd792234ca22ef9
+      Hash: 120a2fe1971b35a4eff70c5a6bd0b34c
     assemblyName: Assembly-CSharp.dll
     namespaceName: BombOffline
     className: GlassPenguin
@@ -2160,7 +2163,7 @@ ScriptsOnlyBuild:
     className: LetterSpacing
   - hash:
       serializedVersion: 2
-      Hash: b0920004becb407329646a7a83269787
+      Hash: ac3efd479a1ecf1ed6b9f2667c3c6a37
     assemblyName: Assembly-CSharp.dll
     namespaceName: BombOffline
     className: BabeZombie
@@ -2292,7 +2295,7 @@ ScriptsOnlyBuild:
     className: ReorderableListContent
   - hash:
       serializedVersion: 2
-      Hash: bac190f7790ae186e9f97b48d8ebed2f
+      Hash: 3e36a61f84a3c448a66962103ff73caf
     assemblyName: Assembly-CSharp.dll
     namespaceName: BombOffline
     className: BigDespider
@@ -2382,7 +2385,7 @@ ScriptsOnlyBuild:
     className: UI2DSprite
   - hash:
       serializedVersion: 2
-      Hash: 3870e198893296eab809e368ea9cbe50
+      Hash: c2ba4c1c8c90fd50792a9be75a0f1f81
     assemblyName: Assembly-CSharp.dll
     namespaceName: BombOffline
     className: Minigun
@@ -2430,7 +2433,7 @@ ScriptsOnlyBuild:
     className: API
   - hash:
       serializedVersion: 2
-      Hash: 8bebdc1f178191963d6444d3331f5621
+      Hash: ae7cf16030da5552939af21948b6663e
     assemblyName: Assembly-CSharp.dll
     namespaceName: BombOffline
     className: IceBall
@@ -2526,7 +2529,7 @@ ScriptsOnlyBuild:
     className: FootTrace
   - hash:
       serializedVersion: 2
-      Hash: 50bf2a03fc8c92c2ee97755a8a25843a
+      Hash: af8563d6a08422ed103066b2482c8162
     assemblyName: Assembly-CSharp.dll
     namespaceName: BombOffline
     className: Lolitop
@@ -2736,7 +2739,7 @@ ScriptsOnlyBuild:
     className: Placeholder
   - hash:
       serializedVersion: 2
-      Hash: 17e09d21a5a849b115b593f9a4f338ec
+      Hash: d8b03398247e33d6ce8e7851df24da1f
     assemblyName: Assembly-CSharp.dll
     namespaceName: BombOffline
     className: LivingFlame
@@ -2772,7 +2775,7 @@ ScriptsOnlyBuild:
     className: TextContainer
   - hash:
       serializedVersion: 2
-      Hash: 7fdc6aee64ee4361ff9f300b03d2c8d2
+      Hash: 671e4088a2cb9687a8017450a52d3e58
     assemblyName: Assembly-CSharp.dll
     namespaceName: BombOffline
     className: Kabuton
@@ -2814,7 +2817,7 @@ ScriptsOnlyBuild:
     className: Button
   - hash:
       serializedVersion: 2
-      Hash: 4267db5d65f00881e53a22341d648b46
+      Hash: 56842d7643be6b37040eed5dd7fc1d72
     assemblyName: Assembly-CSharp.dll
     namespaceName: BombOffline
     className: LivingOasis
@@ -2826,7 +2829,7 @@ ScriptsOnlyBuild:
     className: CFX_Demo_RotateCamera
   - hash:
       serializedVersion: 2
-      Hash: b0920004becb407329646a7a83269787
+      Hash: ac3efd479a1ecf1ed6b9f2667c3c6a37
     assemblyName: Assembly-CSharp.dll
     namespaceName: BombOffline
     className: IceTower
@@ -2886,7 +2889,7 @@ ScriptsOnlyBuild:
     className: UICornerCut
   - hash:
       serializedVersion: 2
-      Hash: b7c14762e4241ae3ad1bae416ac8f32a
+      Hash: 4620490bfab3b3e78510ac8775d1e0d4
     assemblyName: Assembly-CSharp.dll
     namespaceName: BombOffline
     className: Skeleton
@@ -2898,7 +2901,7 @@ ScriptsOnlyBuild:
     className: RaycastMask
   - hash:
       serializedVersion: 2
-      Hash: 69c31d604b3b941e145ca61b7043166c
+      Hash: 163c422db8a0c0eb6198d8e21ec2266c
     assemblyName: Assembly-CSharp.dll
     namespaceName: BombOffline
     className: Offline_StupidMonster
@@ -3072,7 +3075,7 @@ ScriptsOnlyBuild:
     className: InputFocus
   - hash:
       serializedVersion: 2
-      Hash: 8bebdc1f178191963d6444d3331f5621
+      Hash: ae7cf16030da5552939af21948b6663e
     assemblyName: Assembly-CSharp.dll
     namespaceName: BombOffline
     className: Minilight
@@ -3366,7 +3369,7 @@ ScriptsOnlyBuild:
     className: NetworkBehaviour
   - hash:
       serializedVersion: 2
-      Hash: 6b14911fb39d6d716abd7204272d5a51
+      Hash: 2b6cdd8cd9533799dc9e92bf997c408e
     assemblyName: Assembly-CSharp.dll
     namespaceName: BombOffline
     className: Vulture
@@ -3384,7 +3387,7 @@ ScriptsOnlyBuild:
     className: CFX2_Demo
   - hash:
       serializedVersion: 2
-      Hash: 36b54aa5407e30af7b20bb91aa66e675
+      Hash: 771cb5f424a6c53bcd7d745777fd4d64
     assemblyName: Assembly-CSharp.dll
     namespaceName: BombOffline
     className: Demonbat
@@ -3534,7 +3537,7 @@ ScriptsOnlyBuild:
     className: EnemyBuffSystem
   - hash:
       serializedVersion: 2
-      Hash: 2cfa784dbdf96facfbbc88db891af522
+      Hash: e340450d29f56ed4cfa5cc7ca494eadb
     assemblyName: Assembly-CSharp.dll
     namespaceName: BombOffline
     className: SwampJelly
@@ -3648,7 +3651,7 @@ ScriptsOnlyBuild:
     className: BaseAvatarContainer
   - hash:
       serializedVersion: 2
-      Hash: 7fdc6aee64ee4361ff9f300b03d2c8d2
+      Hash: 671e4088a2cb9687a8017450a52d3e58
     assemblyName: Assembly-CSharp.dll
     namespaceName: BombOffline
     className: CoupyStone
@@ -3822,7 +3825,7 @@ ScriptsOnlyBuild:
     className: PlayModeRunnerCallback
   - hash:
       serializedVersion: 2
-      Hash: b7c14762e4241ae3ad1bae416ac8f32a
+      Hash: 4620490bfab3b3e78510ac8775d1e0d4
     assemblyName: Assembly-CSharp.dll
     namespaceName: BombOffline
     className: Bee
@@ -3852,13 +3855,13 @@ ScriptsOnlyBuild:
     className: UIFlippable
   - hash:
       serializedVersion: 2
-      Hash: 7fdc6aee64ee4361ff9f300b03d2c8d2
+      Hash: 671e4088a2cb9687a8017450a52d3e58
     assemblyName: Assembly-CSharp.dll
     namespaceName: BombOffline
     className: FreakyEgg
   - hash:
       serializedVersion: 2
-      Hash: 7fdc6aee64ee4361ff9f300b03d2c8d2
+      Hash: 671e4088a2cb9687a8017450a52d3e58
     assemblyName: Assembly-CSharp.dll
     namespaceName: BombOffline
     className: MadFlower
@@ -3870,7 +3873,7 @@ ScriptsOnlyBuild:
     className: UICircle
   - hash:
       serializedVersion: 2
-      Hash: eca5e2dcf337b3c5dd61d38867144510
+      Hash: cd4a27cb956b1ec9b762e52a1b6fe62b
     assemblyName: Assembly-CSharp.dll
     namespaceName: BombOffline
     className: MasterZombie1
@@ -3900,7 +3903,7 @@ ScriptsOnlyBuild:
     className: InputHandler
   - hash:
       serializedVersion: 2
-      Hash: 77dece26d7ab4184cca5cef6cd801959
+      Hash: 79c0d6bc28daf73d39474b7de8123a3f
     assemblyName: Assembly-CSharp.dll
     namespaceName: BombOffline
     className: Offline_BaseCharactersController
@@ -4050,7 +4053,7 @@ ScriptsOnlyBuild:
     className: CurvedLayout
   - hash:
       serializedVersion: 2
-      Hash: b7c14762e4241ae3ad1bae416ac8f32a
+      Hash: 4620490bfab3b3e78510ac8775d1e0d4
     assemblyName: Assembly-CSharp.dll
     namespaceName: BombOffline
     className: RainbowDonut
@@ -4080,7 +4083,7 @@ ScriptsOnlyBuild:
     className: CoroutineExecutor
   - hash:
       serializedVersion: 2
-      Hash: 6c0b646a89ae064e024e234ba3fbe7cc
+      Hash: d739e64ccc3e2972bf6bffc84550e20c
     assemblyName: Assembly-CSharp.dll
     namespaceName: BombOffline
     className: Kamestone
@@ -4122,7 +4125,7 @@ ScriptsOnlyBuild:
     className: Offline_BombScene
   - hash:
       serializedVersion: 2
-      Hash: bac190f7790ae186e9f97b48d8ebed2f
+      Hash: 3e36a61f84a3c448a66962103ff73caf
     assemblyName: Assembly-CSharp.dll
     namespaceName: BombOffline
     className: Kamarin

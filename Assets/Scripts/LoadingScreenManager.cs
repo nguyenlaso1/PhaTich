@@ -87,12 +87,15 @@ public class LoadingScreenManager : MonoBehaviour
 	{
 		return new List<string>
 		{
-			"Đoán xem điều gì đang chờ đợi bạn ở phía trước nào?"
+			"Đoán xem điều gì đang chờ đợi bạn ở phía trước nào?",
 			//"Stuck on a level ? Try another Land !",
+			"Bị mắc kẹt ư? Thử đảo khác xem nào!",
 			//"Always find items first !",
+			"Luôn tìm kiếm vật phẩm đầu tiên!",
 			//"Conquer Land Boss to get huge Gold Bags and Achievement Reward!",
 			//"You can change controller type in Pause Menu.",
 			//"Bees always chase you.",
+			"Ma luôn dõi theo bạn...",
 			//"Mushroom monsters have no brain so they move randomly.",
 			//"Egg monsters can eat bombs so surround them.",
 			//"Club Penguin : how to be invisible.",
@@ -100,6 +103,7 @@ public class LoadingScreenManager : MonoBehaviour
 			//"Questionmark item is mysterious...",
 			//"Collect items to maximum stats \nReady for BOSS battle !",
 			//"Place bombs as much as you can.",
+			"Giữ khoảng cách với bom bạn nhé!",
 			//"WATCH OUT!!!",
 			//"Swamp Land : Swamp Mud reverses your control !",
 			//"Forest Land : Root trap keeps you in a short time",
@@ -108,6 +112,7 @@ public class LoadingScreenManager : MonoBehaviour
 			//"Take care of these Toxic boxes and Tourchs !",
 			//"You have 3 Lifes each level.",
 			//"New Land - New adventure"
+			"Đảo mới - Thử thách mới"
 		}.GetRandomElement<string>();
 	}
 
