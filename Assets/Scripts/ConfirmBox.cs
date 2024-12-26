@@ -56,6 +56,7 @@ public class ConfirmBox : BaseBox
 		this.EnableBackground();
 		this.noButton.SetActive(false);
 		this.yesButton.SetActive(false);
+		this.buttonsPanel.SetActive(false);
 		if (this.closeButton != null)
 		{
 			this.closeButton.SetActive(true);
@@ -166,6 +167,8 @@ public class ConfirmBox : BaseBox
 	public GameObject noButton;
 
 	public GameObject yesButton;
+
+	public GameObject buttonsPanel;
 
 	public GameObject closeButton;
 
