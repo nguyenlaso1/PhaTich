@@ -1,4 +1,4 @@
-// @sonhg: class: Offline_ShopController
+﻿// @sonhg: class: Offline_ShopController
 using System;
 using System.Collections;
 using System.Collections.Generic;
@@ -124,18 +124,22 @@ public class Offline_ShopController : MonoBehaviour
 		{
 			case "Hair":
 				this.currentCategory = Offline_ShopController.Category.Hair;
+				this.titleSubShop.transform.GetChild(0).GetComponent<Text>().text = "TÓC";
 				this.LoadScrollViewItem(5);
 				break;
 			case "Bomb":
 				this.currentCategory = Offline_ShopController.Category.Bom;
+				this.titleSubShop.transform.GetChild(0).GetComponent<Text>().text = "VŨ KHÍ";
 				this.LoadScrollViewItem(3);
 				break;
 			case "Face":
 				this.currentCategory = Offline_ShopController.Category.Face;
+				this.titleSubShop.transform.GetChild(0).GetComponent<Text>().text = "KHUÔN MẶT";
 				this.LoadScrollViewItem(6);
 				break;
 			case "Body":
 				this.currentCategory = Offline_ShopController.Category.Body;
+				this.titleSubShop.transform.GetChild(0).GetComponent<Text>().text = "TRANG PHỤC";
 				this.LoadScrollViewItem(7);
 				break;
 		}
@@ -178,11 +182,13 @@ public class Offline_ShopController : MonoBehaviour
 				}
 				if (this._myCart.IndexOf(item.Id) >= 0)
 				{
-					_newShopItem.GetComponent<Outline>().enabled = true;
+					_newShopItem.transform.GetChild(1).gameObject.SetActive(true);
+					//_newShopItem.GetComponent<Outline>().enabled = true;
 				}
 				else
 				{
-					_newShopItem.GetComponent<Outline>().enabled = false;
+					_newShopItem.transform.GetChild(1).gameObject.SetActive(false);
+					//_newShopItem.GetComponent<Outline>().enabled = false;
 				}
 				if (this.myItemList.IndexOf(item.Id) >= 0)
 				{
@@ -511,7 +517,7 @@ public class Offline_ShopController : MonoBehaviour
 				transform.parent.Find("Money").gameObject.SetActive(false);
 			}
 			//this.confirmPopUp.AddMessageYes("Buy Success", null, null, string.Empty);
-			this.confirmPopUp.AddMessageYes("Mua th�nh c�ng", null, null, string.Empty);
+			this.confirmPopUp.AddMessageYes("Mua thành công", null, null, string.Empty);
 		}
 		else
 		{
@@ -690,6 +696,8 @@ public class Offline_ShopController : MonoBehaviour
 		//}
 		return false;
 	}
+
+	public GameObject titleSubShop;
 
 	public ScrollRect shopPanel;
 
