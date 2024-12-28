@@ -69,8 +69,10 @@ public class ConfirmBox : BaseBox
 		{
 			no = Language.MSG_NO;
 		}
-		this.yesLabel.GetComponent<Text>().text = yes;
-		this.noLabel.GetComponent<Text>().text = no;
+		//this.yesLabel.GetComponent<Text>().text = yes;
+		this.yesLabel.GetComponent<Text>().text = "Có";
+		//this.noLabel.GetComponent<Text>().text = no;
+		this.noLabel.GetComponent<Text>().text = "Không";
 		return this;
 	}
 
@@ -88,7 +90,8 @@ public class ConfirmBox : BaseBox
 		{
 			yes = Language.MSG_YES;
 		}
-		this.yesLabel.GetComponent<Text>().text = yes;
+		//this.yesLabel.GetComponent<Text>().text = yes;
+		this.yesLabel.GetComponent<Text>().text = "Có";
 		return this;
 	}
 
@@ -106,7 +109,8 @@ public class ConfirmBox : BaseBox
 		{
 			yes = Language.MSG_OK;
 		}
-		this.yesLabel.GetComponent<Text>().text = yes;
+		//this.yesLabel.GetComponent<Text>().text = yes;
+		this.yesLabel.GetComponent<Text>().text = "Có";
 		return this;
 	}
 
@@ -137,8 +141,10 @@ public class ConfirmBox : BaseBox
 		{
 			no = Language.MSG_NO;
 		}
-		this.yesLabel.GetComponent<Text>().text = yes;
-		this.noLabel.GetComponent<Text>().text = no;
+		//this.yesLabel.GetComponent<Text>().text = yes;
+		this.yesLabel.GetComponent<Text>().text = "Có";
+		//this.noLabel.GetComponent<Text>().text = no;
+		this.noLabel.GetComponent<Text>().text = "Không";
 		return this;
 	}
 

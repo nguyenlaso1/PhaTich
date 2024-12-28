@@ -510,7 +510,8 @@ public class Offline_ShopController : MonoBehaviour
 			{
 				transform.parent.Find("Money").gameObject.SetActive(false);
 			}
-			this.confirmPopUp.AddMessageYes("Buy Success", null, null, string.Empty);
+			//this.confirmPopUp.AddMessageYes("Buy Success", null, null, string.Empty);
+			this.confirmPopUp.AddMessageYes("Mua thành công", null, null, string.Empty);
 		}
 		else
 		{

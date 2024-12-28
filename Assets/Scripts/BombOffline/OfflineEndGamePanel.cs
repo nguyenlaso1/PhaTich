@@ -119,7 +119,8 @@ namespace BombOffline
 
 		public void OnClickBox(GameObject _box)
 		{
-			if (!this._isOpenBox && _box.GetComponent<Image>().sprite == this._boxSprite)
+			//if (!this._isOpenBox && _box.GetComponent<Image>().sprite == this._boxSprite)
+			if (!this._isOpenBox)
 			{
 				this._isOpenBox = true;
 				MusicManager.instance.PlayOneShot(this.openSound, 2f);
